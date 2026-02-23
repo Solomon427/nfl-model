@@ -1,0 +1,73 @@
+import pandas as pd
+import numpy as np
+
+from sklearn.model_selection import train_test_split
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.ensemble import RandomForestRegressor
+
+df = 'placeholder for the dataframe'
+
+target_col = 'target_column_name'  # replace with the actual target column name
+
+drop_features_cols = [
+    target_col,
+    'feature_to_drop_1',  # replace with actual feature names to drop
+]
+
+drop_features_cols = [col for col in drop_features_cols if col in df.columns]
+
+# splitting the data into training and prediction sets based on the presence of the target variable
+train_df = df[df[target_col].notnull()].copy()
+pred_df  = df[df[target_col].isna()].copy()
+
+# Features and target
+X = train_df.drop(columns=drop_features_cols)
+y = train_df[target_col].astype(float)
+
+numeric_cols = X.select_dtypes(include=["number"]).columns.tolist()
+categorical_cols = [c for c in X.columns if c not in numeric_cols]
+
+# Preprocessing pipelines for numeric and categorical features
+numeric_transformer = Pipeline(steps=[
+    ("imputer", SimpleImputer(strategy="median"))
+])
+
+categorical_transformer = Pipeline(steps=[
+    ("imputer", SimpleImputer(strategy="most_frequent")),
+    ("onehot", OneHotEncoder(handle_unknown="ignore"))
+])
+
+preprocess = ColumnTransformer(
+    transformers=[
+        ("num", numeric_transformer, numeric_cols),
+        ("cat", categorical_transformer, categorical_cols)
+    ],
+    remainder="drop"
+)
+
+# Model: Random Forest Regressor
+
+rf = RandomForestRegressor(
+    n_estimators = 500, 
+    random_state = 42,
+    n_jobs = -1,
+    max_depth = None,
+    min_samples_leaf = 2)
+
+# TBD: would likely change the model's parameters afterwards
+
+model = Pipeline(steps=[
+    ("preprocess", preprocess),
+    ("rf", rf)
+])
+
+# Train the model
+
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
+model.fit(X_train, y_train)
+
+# Evaluate the model
