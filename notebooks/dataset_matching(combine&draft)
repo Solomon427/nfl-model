@@ -1,0 +1,167 @@
+import re
+import pandas as pd
+import numpy as np
+import os
+from requests import head
+from rapidfuzz import process, fuzz
+
+"""
+Notes for anyone looking at how the code was processed:
+A player will have no player_id if they never ended up inside the matched dataframe.
+i.e. if they failed exact and fuzzy matching
+This is based on the assumption that draft file only includes drafted players and combine files includes undrafted players.
+Also if there's a season mismatch or position mismatch, they won't be matched and won't get a player_id. 
+So there may be some drafted players without player_ids if their season or position is wrong in one of the datasets.
+
+For now I think this is good enough but I haven't really looked into how accurately this code is working.
+In the future, this should likely be reviewed and improved if necessary.
+This is just a first pass to get something working and we can iterate on improving the matching logic later if needed.
+"""
+
+combine = pd.read_csv("data/raw/combine.csv")
+draft = pd.read_csv("data/raw/draft_picks.csv")
+
+def normalize_name(x):
+    """
+    Helper function to normalize player names by removing suffixes and non-alphabetic characters, and converting to lowercase.
+    """
+
+    if pd.isna(x):
+        return ""
+    x = str(x).lower().strip()
+
+    x = re.sub(r"[^a-z\s]", " ", x)
+
+    suffixes = {"jr", "sr", "ii", "iii", "iv", "v"}
+    parts = [p for p in x.split() if p not in suffixes]
+
+    x = " ".join(parts)
+    x = re.sub(r"\s+", " ", x).strip()
+    return x
+
+# creating normalized keys for merging datasets
+
+combine["name_norm"] = combine["name"].apply(normalize_name)
+draft["name_norm"] = draft["pfr_player_name"].apply(normalize_name)
+
+combine["position"] = combine["position"].astype(str).str.strip()
+draft["position"] = draft["position"].astype(str).str.strip()
+
+combine["college"] = combine["college"].astype(str).str.strip()
+draft["college"] = draft["college"].astype(str).str.strip()
+
+# exacct match: season, position, normalized name
+
+exact = pd.merge(
+    combine,
+    draft,
+    on = ["season", "position", "name_norm"],
+    how = "inner",
+    suffixes = ("_combine", "_draft")
+)
+
+# for tracking which rows were matched
+combine_matched_keys = set(zip(exact["season"], exact["position"], exact["name_norm"]))
+draft_matched_keys = set(zip(exact["season"], exact["position"], exact["name_norm"]))
+
+combine_unmatched = combine[~combine.apply(lambda r: (r["season"], r["position"], r["name_norm"]) in combine_matched_keys, axis=1)].copy()
+draft_unmatched = draft[~draft.apply(lambda r: (r["season"], r["position"], r["name_norm"]) in draft_matched_keys, axis=1)].copy()
+
+"""
+Using rapidfuzz to find best matches for unmatched rows based on name similarity, position, and season
+The problem is that exact matching will fail when names aren't exactly matching and I didn't want to manually check
+I'm not sure if we can use rapidfuzz but it was the easiest method I could think of
+"""
+
+matches = []
+
+draft_groups = {}
+
+for (season, pos), grp in draft_unmatched.groupby(["season", "position"]):
+    draft_groups[(season, pos)] = grp
+
+fuzzy_threshold = 90 # this is a high threshold to ensure we only get very close matches\
+# fuzzy_threshold = 95
+# fuzzy_threshold = 85
+
+for c_idx, c_row in combine_unmatched.iterrows():
+    # finding the right candidate bucket
+    key = (c_row["season"], c_row["position"])
+
+    if key not in draft_groups:
+        continue
+
+    cand = draft_groups[key]
+    cand2 = cand
+
+    # restricting to same college if available to improve accuracy, but only if the combine row has a valid college entry
+    if c_row["college"] and c_row["college"] != "nan":
+        same_college = cand[cand["college"] == c_row["college"]]
+
+        if len(same_college) > 0:
+            cand2 = same_college
+
+    cand_names = cand2["name_norm"].tolist()
+
+    # computing best fuzzy match
+    best = process.extractOne(
+        c_row["name_norm"],
+        cand_names,
+        scorer = fuzz.token_sort_ratio
+    )
+
+    if best is None:
+        continue
+
+    best_name, score, _ = best
+
+    if score >= fuzzy_threshold:
+        d_idx = cand2[cand2["name_norm"] == best_name].index[0]
+        matches.append((c_idx, d_idx, score))
+
+# creating dataframe of fuzzy matches and merging back to original datasets
+fuzzy_df = pd.DataFrame(matches, columns=["combine_idx", "draft_idx", "match_score"])
+
+if len(fuzzy_df) > 0:
+    fuzzy_df = fuzzy_df.sort_values("match_score", ascending=False)
+    fuzzy_df = fuzzy_df.drop_duplicates(subset=["draft_idx"], keep="first")
+    fuzzy_df = fuzzy_df.drop_duplicates(subset=["combine_idx"], keep="first")
+else:
+    fuzzy_df = pd.DataFrame(columns=["combine_idx", "draft_idx", "match_score"])
+
+if len(fuzzy_df) > 0:
+    fuzzy_merged = combine.loc[fuzzy_df["combine_idx"]].merge(
+        draft.loc[fuzzy_df["draft_idx"]],
+        left_index=True, right_index=True,
+        suffixes=("_combine", "_draft")
+    )
+
+    fuzzy_merged["match_score"] = fuzzy_df.set_index("combine_idx").loc[fuzzy_merged.index, "match_score"].values
+else:
+    fuzzy_merged = pd.DataFrame()
+
+matched = pd.concat([exact, fuzzy_merged], ignore_index = True)
+
+# identity key (technically I could have used pick number but there are some duplicates there and I don't want to deal with that right now)
+matched["player_key"] = (
+    matched["season"].astype(str) + "|" +
+    matched["position"].astype(str) + "|" +
+    matched["name_norm"].astype(str)
+)
+
+matched["player_id"] = pd.factorize(matched["player_key"])[0] + 1
+
+id_map = matched[["season", "position", "name_norm", "player_id"]].drop_duplicates()
+
+combine_with_id = combine.merge(id_map, on = ["season", "position", "name_norm"], how = "left")
+draft_with_id   = draft.merge(id_map, on = ["season", "position", "name_norm"], how = "left")
+
+# saving
+processed_dir = "data/processed"
+os.makedirs(processed_dir, exist_ok=True)
+
+combine_with_id.to_csv(os.path.join(processed_dir, "combine_with_id.csv"), index = False)
+draft_with_id.to_csv(os.path.join(processed_dir, "draft_picks_with_id.csv"), index = False)
+matched.to_csv(os.path.join(processed_dir, "matched_exact_plus_fuzzy.csv"), index=False)
+
+
