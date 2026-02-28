@@ -10,7 +10,7 @@ groups = ["Skill", "Lineman", "Hybrid", "QB"]
 summary_list = []
 
 for group in groups:
-    summary_path = os.path.join(input_dir, f"{group}_rf_summary.csv")
+    summary_path = os.path.join(input_dir, f"combine_{group}_rf_summary.csv")
     if os.path.exists(summary_path):
         df_summary = pd.read_csv(summary_path)
         summary_list.append(df_summary)
@@ -30,7 +30,7 @@ plt.ylabel("R^2")
 plt.title("Random Forest R^2 by Position Group")
 plt.xticks(rotation = 45)
 plt.tight_layout()
-plt.savefig(os.path.join(fig_dir, "r2_by_group.png"))
+plt.savefig(os.path.join(fig_dir, "combine_r2_by_group.png"))
 plt.close()
 
 # RMSE Comparison
@@ -42,13 +42,13 @@ plt.ylabel("RMSE")
 plt.title("Random Forest RMSE by Position Group")
 plt.xticks(rotation = 45)
 plt.tight_layout()
-plt.savefig(os.path.join(fig_dir, "rmse_by_group.png"))
+plt.savefig(os.path.join(fig_dir, "combine_rmse_by_group.png"))
 plt.close()
 
 # Feature Importance Plots per Group
 
 for group in groups:
-    imp_path = os.path.join(input_dir, f"{group}_rf_feature_importance.csv")
+    imp_path = os.path.join(input_dir, f"combine_{group}_rf_feature_importance.csv")
 
     if not os.path.exists(imp_path):
         continue
@@ -63,5 +63,5 @@ for group in groups:
     plt.gca().invert_yaxis()
     plt.tight_layout()
 
-    plt.savefig(os.path.join(fig_dir, f"{group}_feature_importance.png"))
+    plt.savefig(os.path.join(fig_dir, f"combine_{group}_feature_importance.png"))
     plt.close()
