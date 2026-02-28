@@ -20,6 +20,7 @@ This is just a first pass to get something working and we can iterate on improvi
 
 combine = pd.read_csv("data/raw/combine.csv")
 draft = pd.read_csv("data/raw/draft_picks.csv")
+college_all = pd.read_csv("data/processed/college_all_positions_clean.csv") # new dataset
 
 def normalize_name(x):
     """
@@ -28,8 +29,8 @@ def normalize_name(x):
 
     if pd.isna(x):
         return ""
+    
     x = str(x).lower().strip()
-
     x = re.sub(r"[^a-z\s]", " ", x)
 
     suffixes = {"jr", "sr", "ii", "iii", "iv", "v"}
@@ -37,35 +38,63 @@ def normalize_name(x):
 
     x = " ".join(parts)
     x = re.sub(r"\s+", " ", x).strip()
+
+    return x
+
+def normalize_college(x):
+    if pd.isna(x):
+        return ""
+    
+    x = str(x).lower().strip()
+    x = re.sub(r"\s+", " ", x)
+
     return x
 
 # creating normalized keys for merging datasets
 
 combine["name_norm"] = combine["name"].apply(normalize_name)
 draft["name_norm"] = draft["pfr_player_name"].apply(normalize_name)
-
 combine["position"] = combine["position"].astype(str).str.strip()
 draft["position"] = draft["position"].astype(str).str.strip()
-
 combine["college"] = combine["college"].astype(str).str.strip()
 draft["college"] = draft["college"].astype(str).str.strip()
+combine["college_norm"] = combine["college"].apply(normalize_college)
+draft["college_norm"] = draft["college"].apply(normalize_college)
+
+college_all["name_norm"] = college_all["Player"].apply(normalize_name)
+college_all["position"] = college_all["Pos"].astype(str).str.strip()
+college_all["college"] = college_all["Draft College"].astype(str).str.strip()
+college_all["college_norm"] = college_all["college"].apply(normalize_college)
 
 # exacct match: season, position, normalized name
 
 exact = pd.merge(
     combine,
     draft,
-    on = ["season", "position", "name_norm"],
+    on = ["college_norm", "position", "name_norm"],
     how = "inner",
     suffixes = ("_combine", "_draft")
 )
 
 # for tracking which rows were matched
-combine_matched_keys = set(zip(exact["season"], exact["position"], exact["name_norm"]))
-draft_matched_keys = set(zip(exact["season"], exact["position"], exact["name_norm"]))
+combine_matched_keys = set(zip(exact["position"], exact["name_norm"], exact["college_norm"]))
+draft_matched_keys = set(zip(exact["position"], exact["name_norm"], exact["college_norm"]))
 
-combine_unmatched = combine[~combine.apply(lambda r: (r["season"], r["position"], r["name_norm"]) in combine_matched_keys, axis=1)].copy()
-draft_unmatched = draft[~draft.apply(lambda r: (r["season"], r["position"], r["name_norm"]) in draft_matched_keys, axis=1)].copy()
+combine_unmatched = combine[
+    ~combine.apply(
+        lambda r: (r["position"], r["name_norm"], r["college_norm"])
+        in combine_matched_keys,
+        axis = 1
+    )
+].copy()
+
+draft_unmatched = draft[
+    ~draft.apply(
+        lambda r: (r["position"], r["name_norm"], r["college_norm"])
+        in draft_matched_keys,
+        axis = 1
+    )
+].copy()
 
 """
 Using rapidfuzz to find best matches for unmatched rows based on name similarity, position, and season
@@ -77,16 +106,15 @@ matches = []
 
 draft_groups = {}
 
-for (season, pos), grp in draft_unmatched.groupby(["season", "position"]):
-    draft_groups[(season, pos)] = grp
+for pos, grp in draft_unmatched.groupby(["position"]):
+    draft_groups[pos] = grp
 
 fuzzy_threshold = 90 # this is a high threshold to ensure we only get very close matches\
 # fuzzy_threshold = 95
 # fuzzy_threshold = 85
 
 for c_idx, c_row in combine_unmatched.iterrows():
-    # finding the right candidate bucket
-    key = (c_row["season"], c_row["position"])
+    key = c_row["position"]
 
     if key not in draft_groups:
         continue
@@ -94,20 +122,17 @@ for c_idx, c_row in combine_unmatched.iterrows():
     cand = draft_groups[key]
     cand2 = cand
 
-    # restricting to same college if available to improve accuracy, but only if the combine row has a valid college entry
-    if c_row["college"] and c_row["college"] != "nan":
-        same_college = cand[cand["college"] == c_row["college"]]
-
+    if c_row["college_norm"]:
+        same_college = cand[cand["college_norm"] == c_row["college_norm"]]
         if len(same_college) > 0:
             cand2 = same_college
 
     cand_names = cand2["name_norm"].tolist()
 
-    # computing best fuzzy match
     best = process.extractOne(
         c_row["name_norm"],
         cand_names,
-        scorer = fuzz.token_sort_ratio
+        scorer=fuzz.token_sort_ratio,
     )
 
     if best is None:
@@ -119,49 +144,50 @@ for c_idx, c_row in combine_unmatched.iterrows():
         d_idx = cand2[cand2["name_norm"] == best_name].index[0]
         matches.append((c_idx, d_idx, score))
 
-# creating dataframe of fuzzy matches and merging back to original datasets
+
 fuzzy_df = pd.DataFrame(matches, columns=["combine_idx", "draft_idx", "match_score"])
 
 if len(fuzzy_df) > 0:
     fuzzy_df = fuzzy_df.sort_values("match_score", ascending=False)
     fuzzy_df = fuzzy_df.drop_duplicates(subset=["draft_idx"], keep="first")
     fuzzy_df = fuzzy_df.drop_duplicates(subset=["combine_idx"], keep="first")
-else:
-    fuzzy_df = pd.DataFrame(columns=["combine_idx", "draft_idx", "match_score"])
 
-if len(fuzzy_df) > 0:
     fuzzy_merged = combine.loc[fuzzy_df["combine_idx"]].merge(
         draft.loc[fuzzy_df["draft_idx"]],
-        left_index=True, right_index=True,
-        suffixes=("_combine", "_draft")
+        left_index = True,
+        right_index = True,
+        suffixes=("_combine", "_draft"),
     )
 
-    fuzzy_merged["match_score"] = fuzzy_df.set_index("combine_idx").loc[fuzzy_merged.index, "match_score"].values
+    fuzzy_merged["match_score"] = (
+        fuzzy_df.set_index("combine_idx")
+        .loc[fuzzy_merged.index, "match_score"]
+        .values
+    )
+
 else:
     fuzzy_merged = pd.DataFrame()
 
-matched = pd.concat([exact, fuzzy_merged], ignore_index = True)
+
+matched = pd.concat([exact, fuzzy_merged], ignore_index=True)
 
 # identity key (technically I could have used pick number but there are some duplicates there and I don't want to deal with that right now)
-matched["player_key"] = (
-    matched["season"].astype(str) + "|" +
-    matched["position"].astype(str) + "|" +
-    matched["name_norm"].astype(str)
-)
-
+matched["player_key"] = (matched["position"].astype(str) + "-" + matched["name_norm"].astype(str) + "-" + matched["college_norm"].astype(str))
 matched["player_id"] = pd.factorize(matched["player_key"])[0] + 1
-
-id_map = matched[["season", "position", "name_norm", "player_id"]].drop_duplicates()
-
-combine_with_id = combine.merge(id_map, on = ["season", "position", "name_norm"], how = "left")
-draft_with_id   = draft.merge(id_map, on = ["season", "position", "name_norm"], how = "left")
+id_map = matched[["position", "name_norm", "college_norm", "player_id"]].drop_duplicates()
+combine_with_id = combine.merge(id_map, on = ["position", "name_norm", "college_norm"], how="left")
+draft_with_id = draft.merge(id_map, on = ["position", "name_norm", "college_norm"], how="left")
+college_all_with_id = college_all.merge(id_map, on = ["position", "name_norm", "college_norm"], how="left")
 
 # saving
 processed_dir = "data/processed"
 os.makedirs(processed_dir, exist_ok=True)
 
+# note to self: generalize this later when we are adding more datasets
+
 combine_with_id.to_csv(os.path.join(processed_dir, "combine_with_id.csv"), index = False)
 draft_with_id.to_csv(os.path.join(processed_dir, "draft_picks_with_id.csv"), index = False)
 matched.to_csv(os.path.join(processed_dir, "matched_exact_plus_fuzzy.csv"), index=False)
+college_all_with_id.to_csv(os.path.join(processed_dir, "college_all_positions_with_id.csv"), index=False)
 
 
