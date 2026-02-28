@@ -10,7 +10,7 @@ combine = pd.read_csv("data/processed/combine_with_id.csv")
 draft = pd.read_csv("data/processed/draft_picks_with_id.csv")
 
 # this can be changed to whatever later
-target = "w_av"
+target = "dr_av"
 
 df = pd.merge(
     combine,
