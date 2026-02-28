@@ -81,14 +81,24 @@ def rf_for_group(df_group, group_name):
         "r2": r2
     }])
 
-    summary_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_summary.csv"), index=False)
+    summary_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_summary.csv"), index = False)
 
     importance_df = pd.DataFrame({
         "feature": X.columns,
         "importance": rf.feature_importances_
     }).sort_values("importance", ascending=False)
 
-    importance_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_feature_importance.csv"), index=False)
+    importance_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_feature_importance.csv"), index = False)
+
+    pred_df = pd.DataFrame({
+        "player_id": df_group.loc[X_test.index, "player_id"].values,
+        "y_true": y_test.values,
+        "y_pred": y_pred
+    })
+
+    pred_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_test_predictions.csv"), index = False)
+
+    print(f"\n{group_name} done!")
 
 for group in ["Skill", "Lineman", "Hybrid", "QB"]:
     rf_for_group(df[df["pos_group"] == group].copy(), group)
