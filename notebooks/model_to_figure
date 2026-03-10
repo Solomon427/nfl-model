@@ -1,0 +1,67 @@
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+
+input_dir = "data/machinelearningoutput"
+fig_dir = os.path.join(input_dir, "figures")
+os.makedirs(fig_dir, exist_ok = True)
+
+groups = ["Skill", "Lineman", "Hybrid", "QB"]
+summary_list = []
+
+for group in groups:
+    summary_path = os.path.join(input_dir, f"combine_{group}_rf_summary.csv")
+    if os.path.exists(summary_path):
+        df_summary = pd.read_csv(summary_path)
+        summary_list.append(df_summary)
+
+summary_df = pd.concat(summary_list, ignore_index = True)
+
+# Color
+
+orange = "#E69F00"
+
+# R^2 Comparison
+
+plt.figure()
+plt.bar(summary_df["group"], summary_df["r2"], color = orange)
+plt.xlabel("Position Group")
+plt.ylabel("R^2")
+plt.title("Random Forest R^2 by Position Group")
+plt.xticks(rotation = 45)
+plt.tight_layout()
+plt.savefig(os.path.join(fig_dir, "combine_r2_by_group.png"))
+plt.close()
+
+# RMSE Comparison
+
+plt.figure()
+plt.bar(summary_df["group"], summary_df["rmse"], color = orange)
+plt.xlabel("Position Group")
+plt.ylabel("RMSE")
+plt.title("Random Forest RMSE by Position Group")
+plt.xticks(rotation = 45)
+plt.tight_layout()
+plt.savefig(os.path.join(fig_dir, "combine_rmse_by_group.png"))
+plt.close()
+
+# Feature Importance Plots per Group
+
+for group in groups:
+    imp_path = os.path.join(input_dir, f"combine_{group}_rf_feature_importance.csv")
+
+    if not os.path.exists(imp_path):
+        continue
+
+    df_imp = pd.read_csv(imp_path)
+    df_imp = df_imp.sort_values("importance", ascending=False).head(10)
+
+    plt.figure()
+    plt.barh(df_imp["feature"], df_imp["importance"], color = orange)
+    plt.xlabel("Importance")
+    plt.title(f"{group} - Top 10 Feature Importances")
+    plt.gca().invert_yaxis()
+    plt.tight_layout()
+
+    plt.savefig(os.path.join(fig_dir, f"combine_{group}_feature_importance.png"))
+    plt.close()

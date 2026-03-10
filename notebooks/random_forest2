@@ -6,19 +6,22 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-combine = pd.read_csv("data/processed/combine_with_id.csv")
+# combine = pd.read_csv("data/processed/combine_with_id.csv")
 draft = pd.read_csv("data/processed/draft_picks_with_id.csv")
+college_all = pd.read_csv("data/processed/college_all_positions_with_id.csv")
 
 # this can be changed to whatever later
 target = "dr_av"
 
 df = pd.merge(
-    combine,
+    college_all,
     draft[["player_id", target]],
-    on = "player_id",
+    on ="player_id",
     how = "inner"
 ).dropna(subset=[target])
 
+
+df = df.drop_duplicates(subset=["player_id"], keep="first").copy()
 df["position"] = df["position"].astype(str).str.strip()
 
 # position groups
@@ -41,20 +44,52 @@ def position_group(pos):
 df["pos_group"] = df["position"].apply(position_group)
 df = df[df["pos_group"].isin(["Skill", "Lineman", "Hybrid", "QB"])].copy()
 
+qb_features = [
+    "qb_Cmp","qb_Att","qb_Cmp%","qb_Yds","qb_TD","qb_Int",
+    "qb_TD%","qb_Int%","qb_Y/A","qb_AY/A","qb_Y/C","qb_Y/G",
+    "Sk"
+]
+
+hybrid_features = [
+    "rb_rush_Y/G","rb_rush_Att","rb_rush_Yds","rb_rush_Y/A","rb_rush_TD",
+    "rb_rec_Rec","rb_rec_Y/R","rb_rec_TD","rb_rec_Y/G",
+    "rec_Rec","rec_Yds","rec_Y/R","rec_Y/G","rec_TD",
+    "Solo","Ast","Comb","TFL","Sk","Sk/G","Int","IntTD","PD"
+]
+
+skill_features = [
+    "rec_Rec","rec_Yds","rec_Y/R","rec_Y/G","rec_TD",
+    "PD","Int","IntTD",
+    "Solo","Ast","Comb","TFL"
+]
+
+lineman_features = [
+    "Solo","Ast","Comb","TFL","Sk","Sk/G"
+]
+
+features_by_group = {
+    "QB": qb_features,
+    "Skill": skill_features,
+    "Hybrid": hybrid_features,
+    "Lineman": lineman_features
+}
+
 def rf_for_group(df_group, group_name):
     output_dir = "data/machinelearningoutput"
     os.makedirs(output_dir, exist_ok=True)
 
     # X = features, y = target
-    feature_cols = ["height", "weight", "vert", "broad", "bench", "shuttle", "cone", "10yd", "20yd", "40yd"]
+    feature_cols = features_by_group[group_name]
     feature_cols = [c for c in feature_cols if c in df_group.columns]
+    missing_rate = df_group[feature_cols].isna().mean()
+    feature_cols = [c for c in feature_cols if missing_rate[c] <= 0.7]
     X = df_group[feature_cols].copy()
-    y = df_group[target]
+    y = df_group[target].astype(float)
     X = X.fillna(X.median(numeric_only=True))
 
     # check if we have enough rows to train (delete later)
     # for now keep so that we can refine groups later if needed
-    if len(df_group) < 50:
+    if len(df_group) < 20:
         print(f"\n{group_name} not enough rows ({len(df_group)})")
         return
 
@@ -81,14 +116,14 @@ def rf_for_group(df_group, group_name):
         "r2": r2
     }])
 
-    summary_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_summary.csv"), index = False)
+    summary_df.to_csv(os.path.join(output_dir, f"college_all_{group_name}_rf_summary.csv"), index = False)
 
     importance_df = pd.DataFrame({
         "feature": X.columns,
         "importance": rf.feature_importances_
     }).sort_values("importance", ascending=False)
 
-    importance_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_feature_importance.csv"), index = False)
+    importance_df.to_csv(os.path.join(output_dir, f"college_all_{group_name}_rf_feature_importance.csv"), index = False)
 
     pred_df = pd.DataFrame({
         "player_id": df_group.loc[X_test.index, "player_id"].values,
@@ -96,7 +131,7 @@ def rf_for_group(df_group, group_name):
         "y_pred": y_pred
     })
 
-    pred_df.to_csv(os.path.join(output_dir, f"combine_{group_name}_rf_test_predictions.csv"), index = False)
+    pred_df.to_csv(os.path.join(output_dir, f"college_all_{group_name}_rf_test_predictions.csv"), index = False)
 
     print(f"\n{group_name} done!")
 
