@@ -1,0 +1,230 @@
+Player,Rate,Draft Team,Round,Pick,Draft Year,Draft College,From,To,G,qb_Cmp,qb_Att,qb_Inc,qb_Cmp%,qb_Yds,qb_TD,qb_Int,qb_TD%,qb_Int%,qb_Y/A,qb_AY/A,qb_Y/C,qb_Y/G,Pos,Team,rb_rush_Y/G,rb_rush_Att,rb_rush_Yds,rb_rush_Y/A,rb_rush_TD,rb_rec_Rec,rb_rec_Y/R,rb_rec_TD,rb_rec_Y/G,rec_Y/G,rec_Rec,rec_Yds,rec_Y/R,rec_TD,Sk,Solo,Ast,Comb,TFL,Sk/G,Int,IntTD,PD,dr_av,PosGroup
+Tyron Smith,,DAL,1,9,2011,USC,2009,2010,24.0,,,,,,,,,,,,,,OL,USC,,,,,,,,,,,,,,,,,,,,,,,,89.0,OL
+Mike Pouncey,,MIA,1,15,2011,Florida,2007,2007,13.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,40.0,OL
+Nate Solder,,NWE,1,17,2011,Colorado,2009,2010,12.0,,,,,,,,,,,,,,OL,Colorado,,,,,,,,,,,,,,,,,,,,,,,,49.0,OL
+Anthony Castonzo,,CLT,1,22,2011,Boston College,2007,2009,26.0,,,,,,,,,,,,,,OL,Boston College,,,,,,,,,,,,,,,,,,,,,,,,58.0,OL
+Danny Watkins,,PHI,1,23,2011,Baylor,2009,2009,12.0,,,,,,,,,,,,,,OL,Baylor,,,,,,,,,,,,,,,,,,,,,,,,9.0,OL
+James Carpenter,,SEA,1,25,2011,Alabama,2009,2009,14.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,17.0,OL
+Gabe Carimi,,CHI,1,29,2011,Wisconsin,2010,2010,,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Derek Sherrod,,GNB,1,32,2011,Mississippi State,2009,2010,25.0,,,,,,,,,,,,,,OL,Mississippi State,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Orlando Franklin,,DEN,2,46,2011,Miami (FL),2009,2010,26.0,,,,,,,,,,,,,,OL,Miami (FL),,,,,,,,,,,,,,,,,,,,,,,,31.0,OL
+Rodney Hudson,,KAN,2,55,2011,Florida State,2009,2010,25.0,,,,,,,,,,,,,,OL,Florida State,,,,,,,,,,,,,,,,,,,,,,,,13.0,OL
+Marcus Gilbert,,PIT,2,63,2011,Florida,2010,2010,13.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,36.0,OL
+Joseph Barksdale,,RAI,3,92,2011,LSU,2008,2008,13.0,,,,,,,,,,,,,,OL,LSU,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Clint Boling,,CIN,4,101,2011,Georgia,2007,2008,25.0,,,,,,,,,,,,,,OL,Georgia,,,,,,,,,,,,,,,,,,,,,,,,46.0,OL
+Chris Hairston,,BUF,4,122,2011,Clemson,2008,2010,24.0,,,,,,,,,,,,,,OL,Clemson,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Marcus Cannon,,NWE,5,138,2011,Texas Christian,2007,2008,24.0,,,,,,,,,,,,,,OL,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,42.0,OL
+Julian Vandervelde,,PHI,5,161,2011,Iowa,2007,2009,23.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Stephen Schilling,,SDG,6,201,2011,Michigan,2007,2010,37.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Derek Newton,,HTX,7,214,2011,Arkansas State,2010,2010,12.0,,,,,,,,,,,,,,OL,Arkansas State,,,,,,,,,,,,,,,,,,,,,,,,28.0,OL
+Lee Ziemba,,CAR,7,244,2011,Auburn,2009,2010,13.0,,,,,,,,,,,,,,OL,Auburn,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Matt Kalil,,MIN,1,4,2012,USC,2011,2011,,,,,,,,,,,,,,,OL,USC,,,,,,,,,,,,,,,,,,,,,,,,29.0,OL
+Riley Reiff,,DET,1,23,2012,Iowa,2011,2011,13.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,27.0,OL
+David DeCastro,,PIT,1,24,2012,Stanford,2011,2011,,,,,,,,,,,,,,,OL,Stanford,,,,,,,,,,,,,,,,,,,,,,,,69.0,OL
+Kevin Zeitler,,CIN,1,27,2012,Wisconsin,2011,2011,,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,29.0,OL
+Cordy Glenn,,BUF,2,41,2012,Georgia,2009,2010,26.0,,,,,,,,,,,,,,OL,Georgia,,,,,,,,,,,,,,,,,,,,,,,,31.0,OL
+Jeff Allen,,KAN,2,44,2012,Illinois,2009,2010,25.0,,,,,,,,,,,,,,OL,Illinois,,,,,,,,,,,,,,,,,,,,,,,,19.0,OL
+Donald Stephenson,,KAN,3,74,2012,Oklahoma,2010,2010,14.0,,,,,,,,,,,,,,OL,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,12.0,OL
+Brandon Brooks,,HTX,3,76,2012,Miami (OH),2009,2010,21.0,,,,,,,,,,,,,,OL,Miami (OH),,,,,,,,,,,,,,,,,,,,,,,,15.0,OL
+Lamar Holmes,,ATL,3,91,2012,Southern Mississippi,2011,2011,14.0,,,,,,,,,,,,,,OL,Southern Mississippi,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Tony Bergstrom,,RAI,3,95,2012,Utah,2008,2008,10.0,,,,,,,,,,,,,,OL,Utah,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Ben Jones,,HTX,4,99,2012,Georgia,2009,2009,13.0,,,,,,,,,,,,,,OL,Georgia,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Bobby Massie,,CRD,4,112,2012,Ole Miss,2011,2011,12.0,,,,,,,,,,,,,,OL,Ole Miss,,,,,,,,,,,,,,,,,,,,,,,,19.0,OL
+Joe Looney,,SFO,4,117,2012,Wake Forest,2010,2011,23.0,,,,,,,,,,,,,,OL,Wake Forest,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Brandon Mosley,,NYG,4,131,2012,Auburn,2010,2011,27.0,,,,,,,,,,,,,,OL,Auburn,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Johnnie Troutman,,SDG,5,149,2012,Penn State,2011,2011,13.0,,,,,,,,,,,,,,OL,Penn State,,,,,,,,,,,,,,,,,,,,,,,,14.0,OL
+Dennis Kelly,,PHI,5,153,2012,Purdue,2011,2011,13.0,,,,,,,,,,,,,,OL,Purdue,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Ryan Miller,,CLE,5,160,2012,Colorado,2010,2010,12.0,,,,,,,,,,,,,,OL,Colorado,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Mark Asper,,BUF,6,178,2012,Oregon,2009,2009,13.0,,,,,,,,,,,,,,OL,Oregon,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Nate Potter,,CRD,7,221,2012,Boise State,2011,2011,,,,,,,,,,,,,,,OL,Boise State,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+David Molk,,SDG,7,226,2012,Michigan,2008,2011,12.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Luke Joeckel,,JAX,1,2,2013,Texas A&M,2011,2011,13.0,,,,,,,,,,,,,,OL,Texas A&M,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Lane Johnson,,PHI,1,4,2013,Oklahoma,2011,2011,13.0,,,,,,,,,,,,,,OL,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,89.0,OL
+Jonathan Cooper,,CRD,1,7,2013,North Carolina,2010,2011,26.0,,,,,,,,,,,,,,OL,North Carolina,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Chance Warmack,,OTI,1,10,2013,Alabama,2012,2012,14.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,20.0,OL
+D.J. Fluker,,SDG,1,11,2013,Alabama,2011,2011,13.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,29.0,OL
+Justin Pugh,,NYG,1,19,2013,Syracuse,2011,2012,21.0,,,,,,,,,,,,,,OL,Syracuse,,,,,,,,,,,,,,,,,,,,,,,,25.0,OL
+Travis Frederick,,DAL,1,31,2013,Wisconsin,2011,2012,27.0,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,60.0,OL
+Larry Warford,,DET,3,65,2013,Kentucky,2011,2011,12.0,,,,,,,,,,,,,,OL,Kentucky,,,,,,,,,,,,,,,,,,,,,,,,22.0,OL
+Hugh Thornton,,CLT,3,86,2013,Illinois,2010,2012,24.0,,,,,,,,,,,,,,OL,Illinois,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Brian Schwenke,,OTI,4,107,2013,California,2011,2012,24.0,,,,,,,,,,,,,,OL,California,,,,,,,,,,,,,,,,,,,,,,,,14.0,OL
+David Bakhtiari,,GNB,4,109,2013,Colorado,2010,2010,12.0,,,,,,,,,,,,,,OL,Colorado,,,,,,,,,,,,,,,,,,,,,,,,84.0,OL
+Barrett Jones,,RAM,4,113,2013,Alabama,2011,2011,,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Oday Aboushi,,NYJ,5,141,2013,Virginia,2011,2012,25.0,,,,,,,,,,,,,,OL,Virginia,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Jordan Mills,,CHI,5,163,2013,Louisiana Tech,2010,2011,17.0,,,,,,,,,,,,,,OL,Louisiana Tech,,,,,,,,,,,,,,,,,,,,,,,,14.0,OL
+Greg Robinson,,RAM,1,2,2014,Auburn,2012,2012,12.0,,,,,,,,,,,,,,OL,Auburn,,,,,,,,,,,,,,,,,,,,,,,,13.0,OL
+Taylor Lewan,,OTI,1,11,2014,Michigan,2010,2012,24.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,48.0,OL
+Zack Martin,,DAL,1,16,2014,Notre Dame,2010,2011,26.0,,,,,,,,,,,,,,OL,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,103.0,OL
+Ja'Wuan James,,MIA,1,19,2014,Tennessee,2010,2012,37.0,,,,,,,,,,,,,,OL,Tennessee,,,,,,,,,,,,,,,,,,,,,,,,26.0,OL
+Joel Bitonio,,CLE,2,35,2014,Nevada,2010,2013,28.0,,,,,,,,,,,,,,OL,Nevada,,,,,,,,,,,,,,,,,,,,,,,,75.0,OL
+Weston Richburg,,NYG,2,43,2014,Colorado State,2013,2013,1.0,,,,,,,,,,,,,,OL,Colorado State,,,,,,,,,,,,,,,,,,,,,,,,21.0,OL
+Justin Britt,,SEA,2,64,2014,Missouri,2011,2012,22.0,,,,,,,,,,,,,,OL,Missouri,,,,,,,,,,,,,,,,,,,,,,,,39.0,OL
+Morgan Moses,,WAS,3,66,2014,Virginia,2011,2011,13.0,,,,,,,,,,,,,,OL,Virginia,,,,,,,,,,,,,,,,,,,,,,,,36.0,OL
+Marcus Martin,,SFO,3,70,2014,USC,2013,2013,1.0,,,,,,,,,,,,,,G,USC,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Travis Swanson,,DET,3,76,2014,Arkansas,2012,2012,12.0,,,,,,,,,,,,,,OL,Arkansas,,,,,,,,,,,,,,,,,,,,,,,,20.0,OL
+Spencer Long,,WAS,3,78,2014,Nebraska,2012,2013,15.0,,,,,,,,,,,,,,OL,Nebraska,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Gabe Jackson,,RAI,3,81,2014,Mississippi State,2010,2013,40.0,,,,,,,,,,,,,,OL,Mississippi State,,,,,,,,,,,,,,,,,,,,,,,,36.0,OL
+Chris Watt,,SDG,3,89,2014,Notre Dame,2011,2011,13.0,,,,,,,,,,,,,,OL,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Trai Turner,,CAR,3,92,2014,LSU,2013,2013,1.0,,,,,,,,,,,,,,G,LSU,,,,,,,,,,,,,,,,,,,,,,,,41.0,OL
+Brandon Linder,,JAX,3,93,2014,Miami (FL),2013,2013,1.0,,,,,,,,,,,,,,OL,Miami (FL),,,,,,,,,,,,,,,,,,,,,,,,31.0,OL
+Michael Schofield,,DEN,3,95,2014,Michigan,2011,2012,26.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Bryan Stork,,NWE,4,105,2014,Florida State,2011,2013,25.0,,,,,,,,,,,,,,OL,Florida State,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Russell Bodine,,CIN,4,111,2014,North Carolina,2012,2012,12.0,,,,,,,,,,,,,,OL,North Carolina,,,,,,,,,,,,,,,,,,,,,,,,28.0,OL
+Cameron Fleming,,NWE,4,140,2014,Stanford,2012,2012,14.0,,,,,,,,,,,,,,OL,Stanford,,,,,,,,,,,,,,,,,,,,,,,,13.0,OL
+Luke Bowanko,,JAX,6,205,2014,Virginia,2013,2013,1.0,,,,,,,,,,,,,,G,Virginia,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Charles Leno,,CHI,7,246,2014,Boise State,2012,2012,13.0,,,,,,,,,,,,,,OL,Boise State,,,,,,,,,,,,,,,,,,,,,,,,37.0,OL
+Brandon Scherff,,WAS,1,5,2015,Iowa,2014,2014,13.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,45.0,OL
+Ereck Flowers,,NYG,1,9,2015,Miami (FL),2014,2014,12.0,,,,,,,,,,,,,,OL,Miami (FL),,,,,,,,,,,,,,,,,,,,,,,,18.0,OL
+Andrus Peat,,NOR,1,13,2015,Stanford,2013,2014,14.0,,,,,,,,,,,,,,T,Stanford,,,,,,,,,,,,,,,,,,,,,,,,52.0,OL
+Cameron Erving,,CLE,1,19,2015,Florida State,2013,2013,1.0,,,,,,,,,,,,,,OL,Florida State,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+D.J. Humphries,,CRD,1,24,2015,Florida,2014,2014,10.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,44.0,OL
+Laken Tomlinson,,DET,1,28,2015,Duke,2014,2014,13.0,,,,,,,,,,,,,,OL,Duke,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Jake Fisher,,CIN,2,53,2015,Oregon,2012,2012,13.0,,,,,,,,,,,,,,OL,Oregon,,,,,,,,,,,,,,,,,,,,,,,,9.0,OL
+Rob Havenstein,,RAM,2,57,2015,Wisconsin,2013,2013,2.0,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,58.0,OL
+Ty Sambrailo,,DEN,2,59,2015,Colorado State,2012,2014,24.0,,,,,,,,,,,,,,OL,Colorado State,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+A.J. Cann,,JAX,3,67,2015,South Carolina,2012,2014,26.0,,,,,,,,,,,,,,OL,South Carolina,,,,,,,,,,,,,,,,,,,,,,,,35.0,OL
+Hroniss Grasu,,CHI,3,71,2015,Oregon,2013,2014,13.0,,,,,,,,,,,,,,OL,Oregon,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Jamon Brown,,RAM,3,72,2015,Louisville,2012,2012,13.0,,,,,,,,,,,,,,OL,Louisville,,,,,,,,,,,,,,,,,,,,,,,,13.0,OL
+Chaz Green,,DAL,3,91,2015,Florida,2011,2011,9.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Tre' Jackson,,NWE,4,111,2015,Florida State,2014,2014,12.0,,,,,,,,,,,,,,G,Florida State,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Jamil Douglas,,MIA,4,114,2015,Arizona State,2012,2014,26.0,,,,,,,,,,,,,,OL,Arizona State,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Shaquille Mason,,NWE,4,131,2015,Georgia Tech,2012,2014,28.0,,,,,,,,,,,,,,OL,Georgia Tech,,,,,,,,,,,,,,,,,,,,,,,,42.0,OL
+Mark Glowinski,,SEA,4,134,2015,West Virginia,2013,2013,1.0,,,,,,,,,,,,,,OL,West Virginia,,,,,,,,,,,,,,,,,,,,,,,,9.0,OL
+Tayo Fabuluje,,CHI,6,183,2015,Texas Christian,2012,2012,13.0,,,,,,,,,,,,,,OL,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Cody Wichmann,,RAM,6,215,2015,Fresno State,2014,2014,14.0,,,,,,,,,,,,,,OL,Fresno State,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Trenton Brown,,SFO,7,244,2015,Florida,2013,2014,12.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Ronnie Stanley,,RAV,1,6,2016,Notre Dame,2013,2015,14.0,,,,,,,,,,,,,,T,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,64.0,OL
+Jack Conklin,,OTI,1,8,2016,Michigan State,2014,2015,25.0,,,,,,,,,,,,,,T,Michigan State,,,,,,,,,,,,,,,,,,,,,,,,30.0,OL
+Laremy Tunsil,,MIA,1,13,2016,Ole Miss,2015,2015,6.0,,,,,,,,,,,,,,OL,Ole Miss,,,,,,,,,,,,,,,,,,,,,,,,12.0,OL
+Taylor Decker,,DET,1,16,2016,Ohio State,2014,2015,28.0,,,,,,,,,,,,,,OL,Ohio State,,,,,,,,,,,,,,,,,,,,,,,,59.0,OL
+Ryan Kelly,,CLT,1,18,2016,Alabama,2015,2015,15.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,54.0,OL
+Joshua Garnett,,SFO,1,28,2016,Stanford,2014,2015,27.0,,,,,,,,,,,,,,OL,Stanford,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Germain Ifedi,,SEA,1,31,2016,Texas A&M,2015,2015,13.0,,,,,,,,,,,,,,OL,Texas A&M,,,,,,,,,,,,,,,,,,,,,,,,29.0,OL
+Jason Spriggs,,GNB,2,48,2016,Indiana,2012,2015,26.0,,,,,,,,,,,,,,OL,Indiana,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Nick Martin,,HTX,2,50,2016,Notre Dame,2014,2015,26.0,,,,,,,,,,,,,,C,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,27.0,OL
+Cody Whitehair,,CHI,2,56,2016,Kansas State,2014,2015,26.0,,,,,,,,,,,,,,OL,Kansas State,,,,,,,,,,,,,,,,,,,,,,,,42.0,OL
+Shon Coleman,,CLE,3,76,2016,Auburn,2015,2015,12.0,,,,,,,,,,,,,,OL,Auburn,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Joe Thuney,,NWE,3,78,2016,North Carolina State,2013,2015,14.0,,,,,,,,,,,,,,C,North Carolina State,,,,,,,,,,,,,,,,,,,,,,,,32.0,OL
+Isaac Seumalo,,PHI,3,79,2016,Oregon State,2012,2015,27.0,,,,,,,,,,,,,,OL,Oregon State,,,,,,,,,,,,,,,,,,,,,,,,23.0,OL
+Le'Raven Clark,,CLT,3,82,2016,Texas Tech,2012,2015,27.0,,,,,,,,,,,,,,OL,Texas Tech,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Graham Glasgow,,DET,3,95,2016,Michigan,2013,2015,23.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,41.0,OL
+Rees Odhiambo,,SEA,3,97,2016,Boise State,2015,2015,8.0,,,,,,,,,,,,,,OL,Boise State,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Parker Ehinger,,KAN,4,105,2016,Cincinnati,2015,2015,12.0,,,,,,,,,,,,,,OL,Cincinnati,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Willie Beavers,,MIN,4,121,2016,Western Michigan,2013,2015,15.0,,,,,,,,,,,,,,OL,Western Michigan,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Jerald Hawkins,,PIT,4,123,2016,LSU,2015,2015,11.0,,,,,,,,,,,,,,T,LSU,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Evan Boehm,,CRD,4,128,2016,Missouri,2012,2015,24.0,,,,,,,,,,,,,,OL,Missouri,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Alex Lewis,,RAV,4,130,2016,Nebraska,2012,2015,25.0,,,,,,,,,,,,,,OL,ColoradoNebraska,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Connor McGovern,,DEN,5,144,2016,Missouri,2014,2015,26.0,,,,,,,,,,,,,,OL,Missouri,,,,,,,,,,,,,,,,,,,,,,,,14.0,OL
+John Theus,,SFO,5,145,2016,Georgia,2012,2015,41.0,,,,,,,,,,,,,,OL,Georgia,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Caleb Benenoch,,TAM,5,148,2016,UCLA,2014,2015,26.0,,,,,,,,,,,,,,OL,UCLA,,,,,,,,,,,,,,,,,,,,,,,,12.0,OL
+Joe Dahl,,DET,5,151,2016,Washington State,2013,2015,11.0,,,,,,,,,,,,,,OL,Washington State,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Brandon Shell,,NYJ,5,158,2016,South Carolina,2014,2015,25.0,,,,,,,,,,,,,,T,South Carolina,,,,,,,,,,,,,,,,,,,,,,,,13.0,OL
+Christian Westerman,,CIN,5,161,2016,Arizona State,2015,2015,13.0,,,,,,,,,,,,,,OL,Arizona State,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Halapoulivaati Vaitai,,PHI,5,164,2016,Texas Christian,2015,2015,12.0,,,,,,,,,,,,,,T,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,12.0,OL
+Spencer Drango,,CLE,5,168,2016,Baylor,2012,2015,26.0,,,,,,,,,,,,,,OL,Baylor,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Sebastian Tretola,,OTI,6,193,2016,Arkansas,2014,2015,26.0,,,,,,,,,,,,,,T,Arkansas,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Wes Schweitzer,,ATL,6,195,2016,San Jose State,2014,2015,25.0,,,,,,,,,,,,,,T,San Jose State,,,,,,,,,,,,,,,,,,,,,,,,19.0,OL
+Kyle Murphy,,GNB,6,200,2016,Stanford,2014,2015,27.0,,,,,,,,,,,,,,OL,Stanford,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Joey Hunt,,SEA,6,215,2016,Texas Christian,2013,2015,26.0,,,,,,,,,,,,,,C,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Ted Karras,,NWE,6,221,2016,Illinois,2012,2015,25.0,,,,,,,,,,,,,,OL,Illinois,,,,,,,,,,,,,,,,,,,,,,,,17.0,OL
+Vadal Alexander,,RAI,7,234,2016,LSU,2015,2015,12.0,,,,,,,,,,,,,,T,LSU,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Austin Blythe,,CLT,7,248,2016,Iowa,2014,2015,27.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Cam Robinson,,JAX,2,34,2017,Alabama,2014,2014,1.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,33.0,OL
+Forrest Lamp,,SDG,2,38,2017,Western Kentucky,2013,2016,39.0,,,,,,,,,,,,,,OL,Western Kentucky,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Ethan Pocic,,SEA,2,58,2017,LSU,2015,2015,12.0,,,,,,,,,,,,,,C,LSU,,,,,,,,,,,,,,,,,,,,,,,,19.0,OL
+Dion Dawkins,,BUF,2,63,2017,Temple,2014,2016,39.0,,,,,,,,,,,,,,OL,Temple,,,,,,,,,,,,,,,,,,,,,,,,73.0,OL
+Taylor Moton,,CAR,2,64,2017,Western Michigan,2014,2015,26.0,,,,,,,,,,,,,,OL,Western Michigan,,,,,,,,,,,,,,,,,,,,,,,,47.0,OL
+Pat Elflein,,MIN,3,70,2017,Ohio State,2015,2015,13.0,,,,,,,,,,,,,,OL,Ohio State,,,,,,,,,,,,,,,,,,,,,,,,20.0,OL
+Dan Feeney,,SDG,3,71,2017,Indiana,2015,2015,13.0,,,,,,,,,,,,,,OL,Indiana,,,,,,,,,,,,,,,,,,,,,,,,27.0,OL
+David Sharpe,,RAI,4,129,2017,Florida,2015,2015,14.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Sean Harlow,,ATL,4,136,2017,Oregon State,2014,2015,19.0,,,,,,,,,,,,,,OL,Oregon State,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Will Holden,,CRD,5,157,2017,Vanderbilt,2015,2015,12.0,,,,,,,,,,,,,,OL,Vanderbilt,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Jermaine Eluemunor,,RAV,5,159,2017,Texas A&M,2015,2015,13.0,,,,,,,,,,,,,,OL,Texas A&M,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Isaac Asiata,,MIA,5,164,2017,Utah,2015,2016,26.0,,,,,,,,,,,,,,OL,Utah,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Danny Isidora,,MIN,5,180,2017,Miami (FL),2015,2016,25.0,,,,,,,,,,,,,,OL,Miami (FL),,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Sam Tevi,,SDG,6,190,2017,Utah,2015,2015,12.0,,,,,,,,,,,,,,T,Utah,,,,,,,,,,,,,,,,,,,,,,,,23.0,OL
+Chase Roullier,,WAS,6,199,2017,Wyoming,2013,2015,25.0,,,,,,,,,,,,,,C,Wyoming,,,,,,,,,,,,,,,,,,,,,,,,24.0,OL
+Adam Bisnowaty,,NYG,6,200,2017,Pitt,2015,2015,12.0,,,,,,,,,,,,,,OL,Pitt,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Conor McDermott,,NWE,6,211,2017,UCLA,2015,2015,12.0,,,,,,,,,,,,,,OL,UCLA,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Kyle Fuller,,HTX,7,243,2017,Baylor,2013,2015,15.0,,,,,,,,,,,,,,OL,Baylor,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Quenton Nelson,,CLT,1,6,2018,Notre Dame,2015,2017,36.0,,,,,,,,,,,,,,OL,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,79.0,OL
+Mike McGlinchey,,SFO,1,9,2018,Notre Dame,2014,2017,49.0,,,,,,,,,,,,,,OL,Notre Dame,,,,,,,,,,,,,,,,,,,,,,,,31.0,OL
+Kolton Miller,,RAI,1,15,2018,UCLA,2015,2017,26.0,,,,,,,,,,,,,,OL,UCLA,,,,,,,,,,,,,,,,,,,,,,,,42.0,OL
+Frank Ragnow,,DET,1,20,2018,Arkansas,2015,2016,26.0,,,,,,,,,,,,,,OL,Arkansas,,,,,,,,,,,,,,,,,,,,,,,,51.0,OL
+Billy Price,,CIN,1,21,2018,Ohio State,2015,2017,27.0,,,,,,,,,,,,,,OL,Ohio State,,,,,,,,,,,,,,,,,,,,,,,,9.0,OL
+Isaiah Wynn,,NWE,1,23,2018,Georgia,2015,2016,25.0,,,,,,,,,,,,,,G,Georgia,,,,,,,,,,,,,,,,,,,,,,,,19.0,OL
+Austin Corbett,,CLE,2,33,2018,Nevada,2015,2017,25.0,,,,,,,,,,,,,,OL,Nevada,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Will Hernandez,,NYG,2,34,2018,UTEP,2015,2015,12.0,,,,,,,,,,,,,,OL,UTEP,,,,,,,,,,,,,,,,,,,,,,,,22.0,OL
+Braden Smith,,CLT,2,37,2018,Auburn,2015,2015,13.0,,,,,,,,,,,,,,OL,Auburn,,,,,,,,,,,,,,,,,,,,,,,,45.0,OL
+James Daniels,,CHI,2,39,2018,Iowa,2015,2017,26.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,17.0,OL
+Connor Williams,,DAL,2,50,2018,Texas,2015,2016,23.0,,,,,,,,,,,,,,OL,Texas,,,,,,,,,,,,,,,,,,,,,,,,20.0,OL
+Brian O'Neill,,MIN,2,62,2018,Pitt,2015,2017,38.0,,,,,,,,,,,,,,OL,Pitt,,,,,,,,,,,,,,,,,,,,,,,,56.0,OL
+Geron Christian,,WAS,3,74,2018,Louisville,2015,2017,38.0,,,,,,,,,,,,,,OL,Louisville,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Martinas Rankin,,HTX,3,80,2018,Mississippi State,2016,2016,13.0,,,,,,,,,,,,,,OL,Mississippi State,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Orlando Brown,,RAV,3,83,2018,Oklahoma,2015,2015,13.0,,,,,,,,,,,,,,T,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,27.0,OL
+Joseph Noteboom,,RAM,3,89,2018,Texas Christian,2015,2015,13.0,,,,,,,,,,,,,,T,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,18.0,OL
+Chukwuma Okorafor,,PIT,3,92,2018,Western Michigan,2015,2015,13.0,,,,,,,,,,,,,,OL,Western Michigan,,,,,,,,,,,,,,,,,,,,,,,,25.0,OL
+Mason Cole,,CRD,3,97,2018,Michigan,2015,2015,13.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Brian Allen,,RAM,4,111,2018,Michigan State,2015,2015,14.0,,,,,,,,,,,,,,OL,Michigan State,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Will Richardson,,JAX,4,129,2018,North Carolina State,2015,2017,22.0,,,,,,,,,,,,,,T,North Carolina State,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Tyrell Crosby,,DET,5,153,2018,Oregon,2015,2015,13.0,,,,,,,,,,,,,,OL,Oregon,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Scott Quessenberry,,SDG,5,155,2018,UCLA,2016,2016,12.0,,,,,,,,,,,,,,OL,UCLA,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Wyatt Teller,,BUF,5,166,2018,Virginia Tech,2015,2017,26.0,,,,,,,,,,,,,,OL,Virginia Tech,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Jamarco Jones,,SEA,5,168,2018,Ohio State,2014,2016,29.0,,,,,,,,,,,,,,OL,Ohio State,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Sam Jones,,DEN,6,183,2018,Arizona State,2015,2015,12.0,,,,,,,,,,,,,,OL,Arizona State,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Matt Pryor,,PHI,6,206,2018,Texas Christian,2015,2017,26.0,,,,,,,,,,,,,,T,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Bradley Bozeman,,RAV,6,215,2018,Alabama,2015,2015,15.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,23.0,OL
+William Clapp,,NOR,7,245,2018,LSU,2015,2015,12.0,,,,,,,,,,,,,,C,LSU,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Korey Cunningham,,CRD,7,254,2018,Cincinnati,2015,2015,9.0,,,,,,,,,,,,,,OL,Cincinnati,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Chris Lindstrom,,ATL,1,14,2019,Boston College,2015,2018,37.0,,,,,,,,,,,,,,OL,Boston College,,,,,,,,,,,,,,,,,,,,,,,,49.0,OL
+Garrett Bradbury,,MIN,1,18,2019,North Carolina State,2015,2018,37.0,,,,,,,,,,,,,,G,North Carolina State,,,,,,,,,,,,,,,,,,,,,,,,32.0,OL
+Andre Dillard,,PHI,1,22,2019,Washington State,2015,2018,28.0,,,,,,,,,,,,,,OL,Washington State,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Kaleb McGary,,ATL,1,31,2019,Washington,2015,2016,27.0,,,,,,,,,,,,,,OL,Washington,,,,,,,,,,,,,,,,,,,,,,,,39.0,OL
+Jawaan Taylor,,JAX,2,35,2019,Florida,2016,2018,37.0,,,,,,,,,,,,,,OL,Florida,,,,,,,,,,,,,,,,,,,,,,,,25.0,OL
+Dalton Risner,,DEN,2,41,2019,Kansas State,2015,2016,26.0,,,,,,,,,,,,,,OL,Kansas State,,,,,,,,,,,,,,,,,,,,,,,,20.0,OL
+Elgton Jenkins,,GNB,2,44,2019,Mississippi State,2015,2017,36.0,,,,,,,,,,,,,,OL,Mississippi State,,,,,,,,,,,,,,,,,,,,,,,,48.0,OL
+Erik McCoy,,NOR,2,48,2019,Texas A&M,2015,2018,27.0,,,,,,,,,,,,,,OL,Texas A&M,,,,,,,,,,,,,,,,,,,,,,,,35.0,OL
+Max Scharping,,HTX,2,55,2019,Northern Illinois,2015,2017,27.0,,,,,,,,,,,,,,OL,Northern Illinois,,,,,,,,,,,,,,,,,,,,,,,,16.0,OL
+Michael Deiter,,MIA,3,78,2019,Wisconsin,2015,2018,40.0,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Nate Davis,,OTI,3,82,2019,Charlotte,2015,2017,24.0,,,,,,,,,,,,,,OL,Charlotte,,,,,,,,,,,,,,,,,,,,,,,,22.0,OL
+Connor McGovern,,DAL,3,90,2019,Penn State,2018,2018,13.0,,,,,,,,,,,,,,OL,Penn State,,,,,,,,,,,,,,,,,,,,,,,,11.0,OL
+Chuma Edoga,,NYJ,3,92,2019,USC,2015,2015,13.0,,,,,,,,,,,,,,T,USC,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Bobby Evans,,RAM,3,97,2019,Oklahoma,2015,2018,15.0,,,,,,,,,,,,,,OL,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Yodny Cajuste,,NWE,3,101,2019,West Virginia,2015,2018,18.0,,,,,,,,,,,,,,OL,West Virginia,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Dru Samia,,MIN,4,114,2019,Oklahoma,2015,2015,12.0,,,,,,,,,,,,,,OL,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Hjalte Froholdt,,NWE,4,118,2019,Arkansas,2017,2017,12.0,,,,,,,,,,,,,,OL,Arkansas,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Ben Powers,,RAV,4,123,2019,Oklahoma,2016,2018,38.0,,,,,,,,,,,,,,OL,Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,14.0,OL
+Phil Haynes,,SEA,4,124,2019,Wake Forest,2015,2018,38.0,,,,,,,,,,,,,,OL,Wake Forest,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Wes Martin,,WAS,4,131,2019,Indiana,2015,2017,25.0,,,,,,,,,,,,,,OL,Indiana,,,,,,,,,,,,,,,,,,,,,,,,4.0,OL
+Ross Pierschbacher,,WAS,5,153,2019,Alabama,2015,2018,30.0,,,,,,,,,,,,,,OL,Alabama,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+David Edwards,,RAM,5,169,2019,Wisconsin,2016,2018,23.0,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,21.0,OL
+Lamont Gaillard,,CRD,6,179,2019,Georgia,2015,2016,15.0,,,,,,,,,,,,,,G,Georgia,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Justin Skule,,SFO,6,183,2019,Vanderbilt,2015,2015,7.0,,,,,,,,,,,,,,OL,Vanderbilt,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Isaiah Prince,,MIA,6,202,2019,Ohio State,2015,2018,36.0,,,,,,,,,,,,,,OL,Ohio State,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Nick Allegretti,,KAN,7,216,2019,Illinois,2015,2018,23.0,,,,,,,,,,,,,,OL,Illinois,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Derwin Gray,,PIT,7,219,2019,Maryland,2015,2017,14.0,,,,,,,,,,,,,,OL,Maryland,,,,,,,,,,,,,,,,,,,,,,,,0.0,OL
+Mekhi Becton,,NYJ,1,11,2020,Louisville,2018,2019,23.0,,,,,,,,,,,,,,OL,Louisville,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Tristan Wirfs,,TAM,1,13,2020,Iowa,2018,2018,12.0,,,,,,,,,,,,,,OL,Iowa,,,,,,,,,,,,,,,,,,,,,,,,64.0,OL
+Austin Jackson,,MIA,1,18,2020,USC,2017,2019,27.0,,,,,,,,,,,,,,T,USC,,,,,,,,,,,,,,,,,,,,,,,,24.0,OL
+Cesar Ruiz,,NOR,1,24,2020,Michigan,2018,2018,13.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,29.0,OL
+Robert Hunt,,MIA,2,39,2020,Louisiana,2016,2016,12.0,,,,,,,,,,,,,,OL,Louisiana,,,,,,,,,,,,,,,,,,,,,,,,22.0,OL
+Ezra Cleveland,,MIN,2,58,2020,Boise State,2018,2019,26.0,,,,,,,,,,,,,,OL,Boise State,,,,,,,,,,,,,,,,,,,,,,,,17.0,OL
+Damien Lewis,,SEA,3,69,2020,LSU,2019,2019,15.0,,,,,,,,,,,,,,G,LSU,,,,,,,,,,,,,,,,,,,,,,,,26.0,OL
+Jonah Jackson,,DET,3,75,2020,Ohio State,2018,2018,11.0,,,,,,,,,,,,,,OL,Rutgers,,,,,,,,,,,,,,,,,,,,,,,,25.0,OL
+Matt Hennessy,,ATL,3,78,2020,Temple,2017,2019,24.0,,,,,,,,,,,,,,OL,Temple,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Lucas Niang,,KAN,3,96,2020,Texas Christian,2018,2019,20.0,,,,,,,,,,,,,,T,Texas Christian,,,,,,,,,,,,,,,,,,,,,,,,8.0,OL
+Matt Peart,,NYG,3,99,2020,Connecticut,2018,2019,24.0,,,,,,,,,,,,,,OL,Connecticut,,,,,,,,,,,,,,,,,,,,,,,,5.0,OL
+Tyre Phillips,,RAV,3,106,2020,Mississippi State,2018,2018,13.0,,,,,,,,,,,,,,OL,Mississippi State,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+John Simpson,,RAI,4,109,2020,Clemson,2018,2019,29.0,,,,,,,,,,,,,,G,Clemson,,,,,,,,,,,,,,,,,,,,,,,,9.0,OL
+Logan Stenberg,,DET,4,121,2020,Kentucky,2017,2018,25.0,,,,,,,,,,,,,,G,Kentucky,,,,,,,,,,,,,,,,,,,,,,,,3.0,OL
+Kevin Dotson,,PIT,4,135,2020,Louisiana,2016,2017,24.0,,,,,,,,,,,,,,OL,Louisiana,,,,,,,,,,,,,,,,,,,,,,,,10.0,OL
+Tyler Biadasz,,DAL,4,146,2020,Wisconsin,2018,2019,27.0,,,,,,,,,,,,,,OL,Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,24.0,OL
+Danny Pinter,,CLT,5,149,2020,Ball State,2019,2019,12.0,,,,,,,,,,,,,,OL,Ball State,,,,,,,,,,,,,,,,,,,,,,,,7.0,OL
+Colton McKivitz,,SFO,5,153,2020,West Virginia,2016,2017,26.0,,,,,,,,,,,,,,OL,West Virginia,,,,,,,,,,,,,,,,,,,,,,,,24.0,OL
+Keith Ismael,,WAS,5,156,2020,San Diego State,2018,2019,25.0,,,,,,,,,,,,,,OL,San Diego State,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL
+Michael Onwenu,,NWE,6,182,2020,Michigan,2018,2018,13.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,33.0,OL
+Jon Runyan,,GNB,6,192,2020,Michigan,2019,2019,12.0,,,,,,,,,,,,,,OL,Michigan,,,,,,,,,,,,,,,,,,,,,,,,26.0,OL
+Justin Herron,,NWE,6,195,2020,Wake Forest,2015,2015,12.0,,,,,,,,,,,,,,OL,Wake Forest,,,,,,,,,,,,,,,,,,,,,,,,6.0,OL
+Blake Brandel,,MIN,6,203,2020,Oregon State,2016,2016,12.0,,,,,,,,,,,,,,OL,Oregon State,,,,,,,,,,,,,,,,,,,,,,,,15.0,OL
+Jake Hanson,,GNB,6,208,2020,Oregon,2019,2019,12.0,,,,,,,,,,,,,,OL,Oregon,,,,,,,,,,,,,,,,,,,,,,,,1.0,OL
+Tremayne Anchrum,,RAM,7,250,2020,Clemson,2017,2017,14.0,,,,,,,,,,,,,,T,Clemson,,,,,,,,,,,,,,,,,,,,,,,,2.0,OL

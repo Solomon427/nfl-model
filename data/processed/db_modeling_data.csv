@@ -1,0 +1,408 @@
+Player,Rate,Draft Team,Round,Pick,Draft Year,Draft College,From,To,G,qb_Cmp,qb_Att,qb_Inc,qb_Cmp%,qb_Yds,qb_TD,qb_Int,qb_TD%,qb_Int%,qb_Y/A,qb_AY/A,qb_Y/C,qb_Y/G,Pos,Team,rb_rush_Y/G,rb_rush_Att,rb_rush_Yds,rb_rush_Y/A,rb_rush_TD,rb_rec_Rec,rb_rec_Y/R,rb_rec_TD,rb_rec_Y/G,rec_Y/G,rec_Rec,rec_Yds,rec_Y/R,rec_TD,Sk,Solo,Ast,Comb,TFL,Sk/G,Int,IntTD,PD,dr_av,PosGroup
+Patrick Peterson,,CRD,1,5,2011,LSU,2008,2010,39.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,7.0,1.0,0.0,95.0,DB
+Prince Amukamara,,NYG,1,19,2011,Nebraska,2007,2010,49.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,5.0,0.0,15.0,15.0,DB
+Jimmy Smith,,RAV,1,27,2011,Colorado,2007,2010,41.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,3.0,1.0,9.0,33.0,DB
+Ras-I Dowling,,NWE,2,33,2011,Virginia,2007,2010,40.0,,,,,,,,,,,,,,DB,Virginia,,,,,,,,,,,,,,,,,,,,,8.0,0.0,1.0,1.0,DB
+Aaron Williams,,BUF,2,34,2011,Texas,2008,2010,37.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,4.0,1.0,0.0,17.0,DB
+Rahim Moore,,DEN,2,45,2011,UCLA,2008,2010,37.0,,,,,,,,,,,,,,DB,UCLA,,,,,,,,,,,,,,,,,,,,,14.0,0.0,0.0,18.0,DB
+Marcus Gilchrist,,SDG,2,50,2011,Clemson,2007,2010,53.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,1.0,0.0,0.0,15.0,DB
+Jaiquawn Jarrett,,PHI,2,54,2011,Temple,2007,2010,49.0,,,,,,,,,,,,,,DB,Temple,,,,,,,,,,,,,,,,,,,,,9.0,0.0,0.0,1.0,DB
+Brandon Harris,,HTX,2,60,2011,Miami (FL),2008,2010,39.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,4.0,0.0,0.0,2.0,DB
+Chris Culliver,,SFO,3,80,2011,South Carolina,2008,2010,32.0,,,,,,,,,,,,,,DB,South Carolina,,,,,,,,,,,,,,,,,,,,,3.0,0.0,0.0,10.0,DB
+Demarcus Van Dyke,,RAI,3,81,2011,Miami (FL),2007,2010,50.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,3.0,0.0,1.0,2.0,DB
+Johnny Patrick,,NOR,3,88,2011,Louisville,2010,2010,13.0,,,,,,,,,,,,,,DB,Louisville,,,,,,,,,,,,,,,,,,,,,5.0,1.0,0.0,2.0,DB
+Shareece Wright,,SDG,3,89,2011,USC,2006,2010,35.0,,,,,,,,,,,,,,DB,USC,,,,,,,,,,,,,,,,,,,,,1.0,0.0,10.0,10.0,DB
+Curtis Marsh,,PHI,3,90,2011,Utah State,2009,2010,24.0,,,,,,,,,,,,,,DB,Utah State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,0.0,1.0,DB
+Chris Conte,,CHI,3,93,2011,California,2007,2010,49.0,,,,,,,,,,,,,,DB,California,,,,,,,,,,,,,,,,,,,,,2.0,0.0,0.0,17.0,DB
+Curtis Brown,,PIT,3,95,2011,Texas,2007,2010,52.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,2.0,1.0,6.0,2.0,DB
+Brandon Hogan,,CAR,4,98,2011,West Virginia,2010,2010,11.0,,,,,,,,,,,,,,DB,West Virginia,,,,,,,,,,,,,,,,,,,,,3.0,0.0,0.0,0.0,DB
+Da'Norris Searcy,,BUF,4,100,2011,North Carolina,2007,2010,35.0,,,,,,,,,,,,,,DB,North Carolina,,,,,,,,,,,,,,,,,,,,,5.0,1.0,0.0,12.0,DB
+Quinton Carter,,DEN,4,108,2011,Oklahoma,2006,2010,44.0,,,,,,,,,,,,,,DB,Oklahoma,,,,,,,,,,,,,,,,,,,,,8.0,0.0,2.0,5.0,DB
+Chimdi Chekwa,,RAI,4,113,2011,Ohio State,2007,2010,52.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,6.0,0.0,0.0,2.0,DB
+Jalil Brown,,KAN,4,118,2011,Colorado,2008,2010,36.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,6.0,0.0,0.0,2.0,DB
+Chris Prosinski,,JAX,4,121,2011,Wyoming,2007,2010,49.0,,,,,,,,,,,,,,DB,Wyoming,,,,,,,,,,,,,,,,,,,,,5.0,0.0,7.0,6.0,DB
+Rashad Carmichael,,HTX,4,127,2011,Virginia Tech,2007,2010,54.0,,,,,,,,,,,,,,DB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,10.0,2.0,3.0,0.0,DB
+Davon House,,GNB,4,131,2011,New Mexico State,2007,2010,49.0,,,,,,,,,,,,,,DB,New Mexico State,,,,,,,,,,,,,,,,,,,,,11.0,3.0,0.0,9.0,DB
+Robert Sands,,CIN,5,134,2011,West Virginia,2008,2010,39.0,,,,,,,,,,,,,,DB,West Virginia,,,,,,,,,,,,,,,,,,,,,6.0,0.0,0.0,0.0,DB
+Brandon Burton,,MIN,5,139,2011,,2008,2010,37.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,3.0,0.0,0.0,1.0,DB
+Shiloh Keo,,HTX,5,144,2011,Idaho,2006,2010,55.0,,,,,,,,,,,,,,DB,Idaho,,,,,,,,,,,,,,,,,,,,,11.0,0.0,0.0,6.0,DB
+Dejon Gomes,,WAS,5,146,2011,Nebraska,2009,2010,27.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,7.0,1.0,0.0,4.0,DB
+Rod Issac,,JAX,5,147,2011,Middle Tennessee State,2007,2010,46.0,,,,,,,,,,,,,,DB,Middle Tennessee State,,,,,,,,,,,,,,,,,,,,,5.0,1.0,7.0,0.0,DB
+Jason Pinkston,,CLE,5,150,2011,Pitt,2009,2012,42.0,,,,,,,,,,,,,,DB,Ball State,,,,,,,,,,,,,,,,,,,,,8.0,0.0,4.0,10.0,DB
+Ahmad Black,,TAM,5,151,2011,Florida,2007,2010,48.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,13.0,3.0,0.0,3.0,DB
+Richard Sherman,,SEA,5,154,2011,Stanford,2010,2010,13.0,,,,,,,,,,,,,,DB,Stanford,,,,,,,,,,,,,,,,,,,,,4.0,0.0,0.0,82.0,DB
+Chykie Brown,,RAV,5,164,2011,Texas,2007,2010,44.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,2.0,0.0,6.0,3.0,DB
+Mistral Raymond,,MIN,6,170,2011,South Florida,2009,2010,25.0,,,,,,,,,,,,,,DB,South Florida,,,,,,,,,,,,,,,,,,,,,2.0,0.0,0.0,4.0,DB
+Byron Maxwell,,SEA,6,173,2011,Clemson,2007,2010,53.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,4.0,0.0,6.0,13.0,DB
+Colin Jones,,SFO,6,190,2011,Texas Christian,2007,2010,45.0,,,,,,,,,,,,,,DB,Texas Christian,,,,,,,,,,,,,,,,,,,,,2.0,1.0,1.0,1.0,DB
+Tyler Sash,,NYG,6,198,2011,Iowa,2008,2010,38.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,13.0,1.0,0.0,1.0,DB
+Brandyn Thompson,,WAS,7,213,2011,Boise State,2007,2010,48.0,,,,,,,,,,,,,,DB,Boise State,,,,,,,,,,,,,,,,,,,,,13.0,1.0,0.0,1.0,DB
+Malcolm Williams,,NWE,7,219,2011,Texas Christian,2009,2010,26.0,,,,,,,,,,,,,,DB,Texas Christian,,,,,,,,,,,,,,,,,,,,,0.0,0.0,1.0,0.0,DB
+Anthony Gaitor,,TAM,7,222,2011,Florida International,2007,2010,49.0,,,,,,,,,,,,,,DB,Florida International,,,,,,,,,,,,,,,,,,,,,11.0,3.0,0.0,1.0,DB
+Eric Hagg,,CLE,7,248,2011,Nebraska,2007,2010,48.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,6.0,0.0,7.0,3.0,DB
+Morris Claiborne,,DAL,1,6,2012,LSU,2009,2011,33.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,11.0,1.0,9.0,13.0,DB
+Mark Barron,,TAM,1,7,2012,Alabama,2008,2011,52.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,12.0,1.0,11.0,11.0,DB
+Stephon Gilmore,,BUF,1,10,2012,South Carolina,2009,2011,40.0,,,,,,,,,,,,,,DB,South Carolina,,,,,,,,,,,,,,,,,,,,,8.0,1.0,0.0,18.0,DB
+Dre Kirkpatrick,,CIN,1,17,2012,Alabama,2009,2011,38.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,3.0,0.0,16.0,25.0,DB
+Harrison Smith,,MIN,1,29,2012,Notre Dame,2008,2011,51.0,,,,,,,,,,,,,,DB,Notre Dame,,,,,,,,,,,,,,,,,,,,,7.0,0.0,20.0,72.0,DB
+Janoris Jenkins,,RAM,2,39,2012,,2008,2010,40.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,8.0,1.0,0.0,22.0,DB
+Tavon Wilson,,NWE,2,48,2012,Illinois,2008,2011,50.0,,,,,,,,,,,,,,DB,Illinois,,,,,,,,,,,,,,,,,,,,,3.0,0.0,1.0,5.0,DB
+Casey Hayward,,GNB,2,62,2012,Vanderbilt,2008,2011,50.0,,,,,,,,,,,,,,DB,Vanderbilt,,,,,,,,,,,,,,,,,,,,,15.0,1.0,3.0,7.0,DB
+Josh Robinson,,MIN,3,66,2012,UCF,2009,2011,38.0,,,,,,,,,,,,,,DB,UCF,,,,,,,,,,,,,,,,,,,,,10.0,2.0,0.0,9.0,DB
+Brandon Taylor,,SDG,3,73,2012,LSU,2008,2011,49.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,4.0,0.0,11.0,1.0,DB
+Jamell Fleming,,CRD,3,80,2012,Oklahoma,2008,2011,51.0,,,,,,,,,,,,,,DB,Oklahoma,,,,,,,,,,,,,,,,,,,,,7.0,1.0,0.0,2.0,DB
+Jayron Hosley,,NYG,3,94,2012,Virginia Tech,2009,2011,39.0,,,,,,,,,,,,,,DB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,12.0,0.0,0.0,8.0,DB
+Omar Bolden,,DEN,4,101,2012,Arizona State,2007,2010,41.0,,,,,,,,,,,,,,DB,Arizona State,,,,,,,,,,,,,,,,,,,,,7.0,2.0,7.0,5.0,DB
+Coty Sensabaugh,,OTI,4,115,2012,Clemson,2008,2011,52.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,4.0,0.0,14.0,12.0,DB
+Brandon Boykin,,PHI,4,123,2012,Georgia,2008,2011,53.0,,,,,,,,,,,,,,DB,Georgia,,,,,,,,,,,,,,,,,,,,,9.0,0.0,0.0,7.0,DB
+Ron Brooks,,BUF,4,124,2012,LSU,2008,2011,53.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,3.0,3.0,9.0,4.0,DB
+Robert Blanton,,MIN,5,139,2012,Notre Dame,2008,2011,50.0,,,,,,,,,,,,,,DB,Notre Dame,,,,,,,,,,,,,,,,,,,,,8.0,1.0,10.0,9.0,DB
+George Iloka,,CIN,5,167,2012,Boise State,2008,2011,53.0,,,,,,,,,,,,,,DB,Boise State,,,,,,,,,,,,,,,,,,,,,7.0,0.0,1.0,27.0,DB
+Keith Tandy,,TAM,6,174,2012,West Virginia,2008,2011,45.0,,,,,,,,,,,,,,DB,West Virginia,,,,,,,,,,,,,,,,,,,,,13.0,0.0,20.0,8.0,DB
+Mike Harris,,JAX,6,176,2012,Florida State,2010,2011,27.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,5.0,0.0,0.0,5.0,DB
+Winston Guy,,SEA,6,181,2012,Kentucky,2008,2011,51.0,,,,,,,,,,,,,,DB,Kentucky,,,,,,,,,,,,,,,,,,,,,5.0,0.0,3.0,0.0,DB
+Isaiah Frey,,CHI,6,184,2012,Nevada,2008,2011,51.0,,,,,,,,,,,,,,DB,Nevada,,,,,,,,,,,,,,,,,,,,,7.0,0.0,27.0,3.0,DB
+Josh Bush,,NYJ,6,187,2012,Wake Forest,2008,2011,46.0,,,,,,,,,,,,,,DB,Wake Forest,,,,,,,,,,,,,,,,,,,,,7.0,0.0,8.0,2.0,DB
+Charles Mitchell,,ATL,6,192,2012,Mississippi State,2008,2011,50.0,,,,,,,,,,,,,,DB,Mississippi State,,,,,,,,,,,,,,,,,,,,,4.0,1.0,5.0,1.0,DB
+Jonte Green,,DET,6,196,2012,New Mexico State,2009,2011,38.0,,,,,,,,,,,,,,DB,New Mexico State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,29.0,4.0,DB
+Nate Ebner,,NWE,6,197,2012,Ohio State,2009,2011,36.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,11.0,DB
+Richard Crawford,,WAS,7,213,2012,SMU,2010,2011,27.0,,,,,,,,,,,,,,DB,SMU,,,,,,,,,,,,,,,,,,,,,6.0,0.0,21.0,1.0,DB
+D.J. Campbell,,CAR,7,216,2012,California,2008,2011,46.0,,,,,,,,,,,,,,DB,California,,,,,,,,,,,,,,,,,,,,,2.0,0.0,7.0,2.0,DB
+Jordan Bernstine,,WAS,7,217,2012,Iowa,2007,2011,36.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,1.0,0.0,2.0,0.0,DB
+Alfonzo Dennard,,NWE,7,224,2012,Nebraska,2008,2011,47.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,4.0,1.0,13.0,9.0,DB
+Antonio Allen,,NYJ,7,242,2012,South Carolina,2010,2011,24.0,,,,,,,,,,,,,,DB,South Carolina,,,,,,,,,,,,,,,,,,,,,4.0,2.0,0.0,9.0,DB
+Trevin Wade,,CLE,7,245,2012,Arizona,2008,2011,50.0,,,,,,,,,,,,,,DB,Arizona,,,,,,,,,,,,,,,,,,,,,12.0,2.0,0.0,1.0,DB
+Dee Milliner,,NYJ,1,9,2013,Alabama,2010,2012,39.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,6.0,1.0,17.0,6.0,DB
+D.J. Hayden,,RAI,1,12,2013,Houston,2011,2012,22.0,,,,,,,,,,,,,,DB,Houston,,,,,,,,,,,,,,,,,,,,,6.0,3.0,11.0,8.0,DB
+Kenny Vaccaro,,NOR,1,15,2013,Texas,2009,2012,50.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,5.0,0.0,0.0,20.0,DB
+Eric Reid,,SFO,1,18,2013,LSU,2010,2012,39.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,6.0,0.0,4.0,26.0,DB
+Desmond Trufant,,ATL,1,22,2013,Washington,2009,2012,50.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,6.0,0.0,0.0,35.0,DB
+Xavier Rhodes,,MIN,1,25,2013,Florida State,2010,2012,41.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,8.0,0.0,0.0,43.0,DB
+Matt Elam,,RAV,1,32,2013,Florida,2010,2012,39.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,6.0,0.0,0.0,12.0,DB
+Jonathan Cyprien,,JAX,2,33,2013,Florida International,2009,2012,50.0,,,,,,,,,,,,,,DB,Florida International,,,,,,,,,,,,,,,,,,,,,7.0,1.0,0.0,21.0,DB
+Darius Slay,,DET,2,36,2013,Mississippi State,2011,2012,26.0,,,,,,,,,,,,,,DB,Mississippi State,,,,,,,,,,,,,,,,,,,,,6.0,2.0,0.0,39.0,DB
+Johnthan Banks,,TAM,2,43,2013,Mississippi State,2009,2012,51.0,,,,,,,,,,,,,,DB,Mississippi State,,,,,,,,,,,,,,,,,,,,,16.0,3.0,0.0,11.0,DB
+David Amerson,,WAS,2,51,2013,North Carolina State,2010,2012,39.0,,,,,,,,,,,,,,DB,North Carolina State,,,,,,,,,,,,,,,,,,,,,18.0,3.0,0.0,7.0,DB
+Jamar Taylor,,MIA,2,54,2013,Boise State,2008,2012,49.0,,,,,,,,,,,,,,DB,Boise State,,,,,,,,,,,,,,,,,,,,,7.0,1.0,2.0,4.0,DB
+D.J. Swearinger,,HTX,2,57,2013,South Carolina,2009,2012,52.0,,,,,,,,,,,,,,DB,South Carolina,,,,,,,,,,,,,,,,,,,,,6.0,2.0,1.0,8.0,DB
+Dwayne Gratz,,JAX,3,64,2013,Connecticut,2009,2012,50.0,,,,,,,,,,,,,,DB,Connecticut,,,,,,,,,,,,,,,,,,,,,8.0,2.0,16.0,10.0,DB
+Leon McFadden,,CLE,3,68,2013,San Diego State,2009,2012,51.0,,,,,,,,,,,,,,DB,San Diego State,,,,,,,,,,,,,,,,,,,,,8.0,2.0,23.0,1.0,DB
+Tyrann Mathieu,,CRD,3,69,2013,LSU,2010,2011,26.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,4.0,0.0,16.0,21.0,DB
+Blidi Wreh-Wilson,,OTI,3,70,2013,Connecticut,2009,2012,45.0,,,,,,,,,,,,,,DB,Connecticut,,,,,,,,,,,,,,,,,,,,,8.0,2.0,10.0,6.0,DB
+T.J. McDonald,,RAM,3,71,2013,USC,2009,2012,50.0,,,,,,,,,,,,,,DB,USC,,,,,,,,,,,,,,,,,,,,,8.0,0.0,0.0,17.0,DB
+Logan Ryan,,NWE,3,83,2013,Rutgers,2010,2012,37.0,,,,,,,,,,,,,,DB,Rutgers,,,,,,,,,,,,,,,,,,,,,7.0,1.0,1.0,14.0,DB
+Shawn Williams,,CIN,3,84,2013,Georgia,2009,2012,54.0,,,,,,,,,,,,,,DB,Georgia,,,,,,,,,,,,,,,,,,,,,4.0,0.0,1.0,24.0,DB
+Kayvon Webster,,DEN,3,90,2013,South Florida,2009,2012,47.0,,,,,,,,,,,,,,DB,South Florida,,,,,,,,,,,,,,,,,,,,,3.0,0.0,0.0,4.0,DB
+Duron Harmon,,NWE,3,91,2013,Rutgers,2009,2012,50.0,,,,,,,,,,,,,,DB,Rutgers,,,,,,,,,,,,,,,,,,,,,6.0,1.0,0.0,16.0,DB
+Will Davis,,MIA,3,93,2013,Utah State,2011,2012,26.0,,,,,,,,,,,,,,DB,Utah State,,,,,,,,,,,,,,,,,,,,,5.0,1.0,6.0,0.0,DB
+Duke Williams,,BUF,4,105,2013,Nevada,2009,2012,50.0,,,,,,,,,,,,,,DB,Nevada,,,,,,,,,,,,,,,,,,,,,4.0,0.0,10.0,8.0,DB
+Shamarko Thomas,,PIT,4,111,2013,Syracuse,2009,2012,48.0,,,,,,,,,,,,,,DB,Syracuse,,,,,,,,,,,,,,,,,,,,,2.0,0.0,5.0,4.0,DB
+Phillip Thomas,,WAS,4,119,2013,Fresno State,2009,2012,38.0,,,,,,,,,,,,,,DB,Fresno State,,,,,,,,,,,,,,,,,,,,,13.0,4.0,0.0,2.0,DB
+Gerald Hodges,,MIN,4,120,2013,Penn State,2009,2012,41.0,,,,,,,,,,,,,,DB,Penn State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,2.0,8.0,DB
+Sanders Commings,,KAN,5,134,2013,Georgia,2009,2012,51.0,,,,,,,,,,,,,,DB,Georgia,,,,,,,,,,,,,,,,,,,,,8.0,0.0,0.0,0.0,DB
+Earl Wolff,,PHI,5,136,2013,North Carolina State,2009,2012,51.0,,,,,,,,,,,,,,DB,North Carolina State,,,,,,,,,,,,,,,,,,,,,6.0,0.0,2.0,4.0,DB
+Tharold Simon,,SEA,5,138,2013,LSU,2010,2012,34.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,7.0,0.0,13.0,3.0,DB
+Jonathan Meeks,,BUF,5,143,2013,Clemson,2009,2012,50.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,7.0,1.0,6.0,2.0,DB
+Steve Williams,,SDG,5,145,2013,California,2010,2012,37.0,,,,,,,,,,,,,,DB,California,,,,,,,,,,,,,,,,,,,,,6.0,0.0,14.0,4.0,DB
+Brandon McGee,,RAM,5,149,2013,Miami (FL),2009,2012,45.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,3.0,0.0,4.0,1.0,DB
+Micah Hyde,,GNB,5,159,2013,Iowa,2009,2012,51.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,8.0,2.0,15.0,13.0,DB
+Josh Evans,,JAX,6,169,2013,Florida,2009,2012,47.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,5.0,0.0,0.0,13.0,DB
+Nick Moody,,SFO,6,180,2013,Florida State,2009,2012,48.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,1.0,1.0,2.0,2.0,DB
+Devonte Holloman,,DAL,6,185,2013,South Carolina,2009,2012,51.0,,,,,,,,,,,,,,DB,South Carolina,,,,,,,,,,,,,,,,,,,,,7.0,0.0,0.0,1.0,DB
+Bacarri Rambo,,WAS,6,191,2013,Georgia,2009,2012,47.0,,,,,,,,,,,,,,DB,Georgia,,,,,,,,,,,,,,,,,,,,,16.0,3.0,0.0,1.0,DB
+Khalid Wooten,,OTI,6,202,2013,Nevada,2009,2012,51.0,,,,,,,,,,,,,,DB,Nevada,,,,,,,,,,,,,,,,,,,,,10.0,2.0,5.0,0.0,DB
+Jeremy Harris,,JAX,7,208,2013,New Mexico State,2011,2012,25.0,,,,,,,,,,,,,,DB,New Mexico State,,,,,,,,,,,,,,,,,,,,,1.0,0.0,2.0,0.0,DB
+Jordan Poyer,,PHI,7,218,2013,Oregon State,2009,2012,49.0,,,,,,,,,,,,,,DB,Oregon State,,,,,,,,,,,,,,,,,,,,,13.0,3.0,16.0,0.0,DB
+Kemal Ishmael,,ATL,7,243,2013,UCF,2009,2012,53.0,,,,,,,,,,,,,,DB,UCF,,,,,,,,,,,,,,,,,,,,,6.0,0.0,3.0,13.0,DB
+Zeke Motta,,ATL,7,244,2013,Notre Dame,2009,2012,51.0,,,,,,,,,,,,,,DB,Notre Dame,,,,,,,,,,,,,,,,,,,,,2.0,0.0,6.0,1.0,DB
+Daimion Stafford,,OTI,7,248,2013,Nebraska,2011,2012,27.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,4.0,0.0,10.0,7.0,DB
+Don Jones,,MIA,7,250,2013,Arkansas State,2008,2012,27.0,,,,,,,,,,,,,,DB,Arkansas State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,0.0,1.0,DB
+Justin Gilbert,,CLE,1,8,2014,Oklahoma State,2010,2013,51.0,,,,,,,,,,,,,,DB,Oklahoma State,,,,,,,,,,,,,,,,,,,,,12.0,2.0,18.0,3.0,DB
+Kyle Fuller,,CHI,1,14,2014,Virginia Tech,2010,2013,46.0,,,,,,,,,,,,,,DB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,6.0,0.0,21.0,45.0,DB
+Calvin Pryor,,NYJ,1,18,2014,Louisville,2011,2013,36.0,,,,,,,,,,,,,,DB,Louisville,,,,,,,,,,,,,,,,,,,,,7.0,0.0,9.0,13.0,DB
+Ha Ha Clinton-Dix,,GNB,1,21,2014,Alabama,2011,2013,38.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,7.0,0.0,15.0,24.0,DB
+Darqueze Dennard,,CIN,1,24,2014,Michigan State,2010,2013,43.0,,,,,,,,,,,,,,DB,Michigan State,,,,,,,,,,,,,,,,,,,,,10.0,1.0,13.0,12.0,DB
+Jason Verrett,,SDG,1,25,2014,Texas Christian,2011,2013,37.0,,,,,,,,,,,,,,DB,Texas Christian,,,,,,,,,,,,,,,,,,,,,9.0,0.0,17.0,13.0,DB
+Deone Bucannon,,CRD,1,27,2014,Washington State,2010,2013,49.0,,,,,,,,,,,,,,DB,Washington State,,,,,,,,,,,,,,,,,,,,,15.0,0.0,9.0,29.0,DB
+Jimmie Ward,,SFO,1,30,2014,Northern Illinois,2010,2013,54.0,,,,,,,,,,,,,,DB,Northern Illinois,,,,,,,,,,,,,,,,,,,,,11.0,1.0,14.0,25.0,DB
+Bradley Roby,,DEN,1,31,2014,Ohio State,2011,2013,36.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,8.0,2.0,19.0,14.0,DB
+Lamarcus Joyner,,RAM,2,41,2014,Florida State,2010,2013,55.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,8.0,0.0,10.0,15.0,DB
+Stanley Jean-Baptiste,,NOR,2,58,2014,Nebraska,2012,2013,26.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,6.0,2.0,12.0,0.0,DB
+Dezmen Southward,,ATL,3,68,2014,Wisconsin,2010,2013,52.0,,,,,,,,,,,,,,DB,Wisconsin,,,,,,,,,,,,,,,,,,,,,2.0,0.0,7.0,1.0,DB
+Terrence Brooks,,RAV,3,79,2014,Florida State,2010,2013,49.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,5.0,0.0,11.0,2.0,DB
+Dexter McDougle,,NYJ,3,80,2014,Maryland,2010,2013,38.0,,,,,,,,,,,,,,DB,Maryland,,,,,,,,,,,,,,,,,,,,,6.0,1.0,11.0,1.0,DB
+Phillip Gaines,,KAN,3,87,2014,Rice,2009,2013,51.0,,,,,,,,,,,,,,DB,Rice,,,,,,,,,,,,,,,,,,,,,4.0,0.0,38.0,6.0,DB
+Jaylen Watkins,,PHI,4,101,2014,Florida,2010,2013,48.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,3.0,1.0,13.0,3.0,DB
+Bashaud Breeland,,WAS,4,102,2014,Clemson,2011,2013,37.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,6.0,0.0,17.0,20.0,DB
+Ross Cockrell,,BUF,4,109,2014,Duke,2010,2013,49.0,,,,,,,,,,,,,,DB,Duke,,,,,,,,,,,,,,,,,,,,,12.0,1.0,28.0,0.0,DB
+Maurice Alexander,,RAM,4,110,2014,Utah State,2013,2013,13.0,,,,,,,,,,,,,,S,Utah State,,,,,,,,,,,,,,,,,,,,,1.0,0.0,6.0,10.0,DB
+Aaron Colvin,,JAX,4,114,2014,Oklahoma,2010,2013,50.0,,,,,,,,,,,,,,DB,Oklahoma,,,,,,,,,,,,,,,,,,,,,5.0,0.0,11.0,13.0,DB
+Keith McGill,,RAI,4,116,2014,Utah,2011,2013,16.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,1.0,1.0,13.0,4.0,DB
+Marqueston Huff,,OTI,4,122,2014,Wyoming,2010,2013,49.0,,,,,,,,,,,,,,DB,Wyoming,,,,,,,,,,,,,,,,,,,,,6.0,0.0,16.0,3.0,DB
+Tre Boston,,CAR,4,128,2014,North Carolina,2010,2013,48.0,,,,,,,,,,,,,,DB,North Carolina,,,,,,,,,,,,,,,,,,,,,13.0,1.0,12.0,17.0,DB
+Dontae Johnson,,SFO,4,129,2014,North Carolina State,2010,2013,51.0,,,,,,,,,,,,,,DB,North Carolina State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,15.0,15.0,DB
+Brock Vereen,,CHI,4,131,2014,Minnesota,2010,2013,47.0,,,,,,,,,,,,,,DB,Minnesota,,,,,,,,,,,,,,,,,,,,,4.0,0.0,12.0,2.0,DB
+Nevin Lawson,,DET,4,133,2014,Utah State,2010,2013,47.0,,,,,,,,,,,,,,DB,Utah State,,,,,,,,,,,,,,,,,,,,,6.0,1.0,34.0,17.0,DB
+Ricardo Allen,,ATL,5,147,2014,Purdue,2010,2013,50.0,,,,,,,,,,,,,,DB,Purdue,,,,,,,,,,,,,,,,,,,,,13.0,4.0,11.0,24.0,DB
+Bene Benwikere,,CAR,5,148,2014,San Jose State,2010,2013,47.0,,,,,,,,,,,,,,DB,San Jose State,,,,,,,,,,,,,,,,,,,,,14.0,1.0,17.0,6.0,DB
+Nat Berhe,,NYG,5,152,2014,San Diego State,2010,2013,51.0,,,,,,,,,,,,,,DB,San Diego State,,,,,,,,,,,,,,,,,,,,,5.0,0.0,15.0,3.0,DB
+Ed Reynolds,,PHI,5,162,2014,Stanford,2010,2013,33.0,,,,,,,,,,,,,,DB,Stanford,,,,,,,,,,,,,,,,,,,,,7.0,3.0,4.0,1.0,DB
+Vinnie Sunseri,,NOR,5,167,2014,Alabama,2011,2013,33.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,4.0,2.0,5.0,0.0,DB
+Keith Reaser,,SFO,5,170,2014,Florida Atlantic,2010,2013,40.0,,,,,,,,,,,,,,DB,Florida Atlantic,,,,,,,,,,,,,,,,,,,,,5.0,0.0,11.0,2.0,DB
+Kenneth Acker,,SFO,6,180,2014,SMU,2010,2013,46.0,,,,,,,,,,,,,,DB,SMU,,,,,,,,,,,,,,,,,,,,,7.0,1.0,17.0,5.0,DB
+Antone Exum,,MIN,6,182,2014,Virginia Tech,2010,2013,44.0,,,,,,,,,,,,,,DB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,6.0,0.0,20.0,3.0,DB
+E.J. Gaines,,RAM,6,188,2014,Missouri,2010,2013,50.0,,,,,,,,,,,,,,DB,Missouri,,,,,,,,,,,,,,,,,,,,,8.0,0.0,20.0,9.0,DB
+Demetri Goodson,,GNB,6,197,2014,Baylor,2011,2013,19.0,,,,,,,,,,,,,,DB,Baylor,,,,,,,,,,,,,,,,,,,,,4.0,0.0,13.0,2.0,DB
+Eric Pinkins,,SEA,6,208,2014,San Diego State,2009,2013,46.0,,,,,,,,,,,,,,DB,San Diego State,,,,,,,,,,,,,,,,,,,,,3.0,1.0,5.0,1.0,DB
+Andre Hal,,HTX,7,216,2014,Vanderbilt,2010,2013,50.0,,,,,,,,,,,,,,DB,Vanderbilt,,,,,,,,,,,,,,,,,,,,,6.0,0.0,17.0,17.0,DB
+Travis Carrie,,RAI,7,219,2014,Ohio,2008,2013,50.0,,,,,,,,,,,,,,DB,Ohio,,,,,,,,,,,,,,,,,,,,,9.0,2.0,26.0,13.0,DB
+Jabari Price,,MIN,7,225,2014,North Carolina,2010,2013,45.0,,,,,,,,,,,,,,DB,North Carolina,,,,,,,,,,,,,,,,,,,,,2.0,0.0,16.0,1.0,DB
+Christian Bryant,,RAM,7,241,2014,Ohio State,2010,2013,36.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,11.0,1.0,DB
+Jonathan Dowling,,RAI,7,247,2014,Western Kentucky,2012,2013,23.0,,,,,,,,,,,,,,DB,Western Kentucky,,,,,,,,,,,,,,,,,,,,,9.0,1.0,6.0,0.0,DB
+Terrance Mitchell,,DAL,7,254,2014,Oregon,2011,2013,40.0,,,,,,,,,,,,,,DB,Oregon,,,,,,,,,,,,,,,,,,,,,7.0,1.0,25.0,0.0,DB
+Lonnie Ballentine,,HTX,7,256,2014,Memphis,2010,2013,42.0,,,,,,,,,,,,,,DB,Memphis,,,,,,,,,,,,,,,,,,,,,3.0,0.0,8.0,0.0,DB
+Trae Waynes,,MIN,1,11,2015,Michigan State,2012,2014,36.0,,,,,,,,,,,,,,DB,Michigan State,,,,,,,,,,,,,,,,,,,,,6.0,0.0,13.0,18.0,DB
+Kevin Johnson,,HTX,1,16,2015,Wake Forest,2010,2014,47.0,,,,,,,,,,,,,,DB,Wake Forest,,,,,,,,,,,,,,,,,,,,,7.0,0.0,20.0,8.0,DB
+Marcus Peters,,KAN,1,18,2015,Washington,2012,2014,35.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,11.0,1.0,16.0,32.0,DB
+Byron Jones,,DAL,1,27,2015,Connecticut,2011,2014,43.0,,,,,,,,,,,,,,DB,Connecticut,,,,,,,,,,,,,,,,,,,,,8.0,1.0,16.0,29.0,DB
+Damarious Randall,,GNB,1,30,2015,Arizona State,2013,2014,24.0,,,,,,,,,,,,,,DB,Arizona State,,,,,,,,,,,,,,,,,,,,,6.0,2.0,12.0,11.0,DB
+Landon Collins,,NYG,2,33,2015,Alabama,2012,2014,41.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,5.0,1.0,13.0,32.0,DB
+Jalen Collins,,ATL,2,42,2015,LSU,2012,2014,34.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,2.0,0.0,2.0,4.0,DB
+Eric Rowe,,PHI,2,47,2015,Utah,2011,2014,47.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,3.0,1.0,28.0,2.0,DB
+Ronald Darby,,BUF,2,50,2015,Florida State,2012,2014,35.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,16.0,9.0,DB
+Quinten Rollins,,GNB,2,62,2015,Miami (OH),2014,2014,12.0,,,,,,,,,,,,,,DB,Miami (OH),,,,,,,,,,,,,,,,,,,,,7.0,1.0,9.0,7.0,DB
+Jordan Richards,,NWE,2,64,2015,Stanford,2011,2014,54.0,,,,,,,,,,,,,,DB,Stanford,,,,,,,,,,,,,,,,,,,,,9.0,1.0,9.0,5.0,DB
+D'Joun Smith,,CLT,3,65,2015,Florida Atlantic,2012,2014,34.0,,,,,,,,,,,,,,DB,Florida Atlantic,,,,,,,,,,,,,,,,,,,,,9.0,2.0,21.0,0.0,DB
+P.J. Williams,,NOR,3,78,2015,Florida State,2012,2014,39.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,4.0,1.0,18.0,19.0,DB
+Alex Carter,,DET,3,80,2015,Stanford,2012,2014,40.0,,,,,,,,,,,,,,DB,Stanford,,,,,,,,,,,,,,,,,,,,,2.0,0.0,16.0,0.0,DB
+Craig Mager,,SDG,3,83,2015,Texas State,2012,2014,36.0,,,,,,,,,,,,,,DB,Texas State,,,,,,,,,,,,,,,,,,,,,7.0,0.0,19.0,4.0,DB
+Steven Nelson,,KAN,3,98,2015,Oregon State,2013,2014,25.0,,,,,,,,,,,,,,CB,Oregon State,,,,,,,,,,,,,,,,,,,,,8.0,1.0,16.0,11.0,DB
+James Sample,,JAX,4,104,2015,Louisville,2014,2014,13.0,,,,,,,,,,,,,,S,Louisville,,,,,,,,,,,,,,,,,,,,,4.0,0.0,8.0,1.0,DB
+Clayton Geathers,,CLT,4,109,2015,UCF,2010,2014,53.0,,,,,,,,,,,,,,DB,UCF,,,,,,,,,,,,,,,,,,,,,3.0,0.0,30.0,13.0,DB
+Ibraheim Campbell,,CLE,4,115,2015,Northwestern,2011,2014,46.0,,,,,,,,,,,,,,DB,Northwestern,,,,,,,,,,,,,,,,,,,,,10.0,0.0,12.0,5.0,DB
+Josh Shaw,,CIN,4,120,2015,USC,2011,2012,23.0,,,,,,,,,,,,,,DB,FloridaUSC,,,,,,,,,,,,,,,,,,,,,2.0,0.0,1.0,7.0,DB
+Doran Grant,,PIT,4,121,2015,Ohio State,2011,2014,53.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,9.0,1.0,19.0,0.0,DB
+Adrian Amos,,CHI,5,142,2015,Penn State,2011,2014,48.0,,,,,,,,,,,,,,DB,Penn State,,,,,,,,,,,,,,,,,,,,,7.0,0.0,16.0,19.0,DB
+Bobby McCain,,MIA,5,145,2015,Memphis,2011,2014,45.0,,,,,,,,,,,,,,DB,Memphis,,,,,,,,,,,,,,,,,,,,,12.0,4.0,12.0,17.0,DB
+Lorenzo Doss,,DEN,5,164,2015,Tulane,2012,2014,37.0,,,,,,,,,,,,,,DB,Tulane,,,,,,,,,,,,,,,,,,,,,15.0,2.0,17.0,0.0,DB
+Damian Swann,,NOR,5,167,2015,Georgia,2011,2014,50.0,,,,,,,,,,,,,,DB,Georgia,,,,,,,,,,,,,,,,,,,,,8.0,0.0,16.0,1.0,DB
+Kyshoen Jarrett,,WAS,6,181,2015,Virginia Tech,2011,2014,53.0,,,,,,,,,,,,,,DB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,5.0,0.0,7.0,3.0,DB
+Charles Gaines,,CLE,6,189,2015,Louisville,2012,2014,32.0,,,,,,,,,,,,,,DB,Louisville,,,,,,,,,,,,,,,,,,,,,7.0,1.0,17.0,1.0,DB
+Randall Evans,,PHI,6,196,2015,Kansas State,2011,2014,51.0,,,,,,,,,,,,,,DB,Kansas State,,,,,,,,,,,,,,,,,,,,,7.0,0.0,21.0,0.0,DB
+Derron Smith,,CIN,6,197,2015,Fresno State,2010,2014,56.0,,,,,,,,,,,,,,DB,Fresno State,,,,,,,,,,,,,,,,,,,,,15.0,2.0,16.0,2.0,DB
+Quandre Diggs,,DET,6,200,2015,Texas,2011,2014,52.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,11.0,0.0,27.0,11.0,DB
+Dexter McDonald,,RAI,7,242,2015,Kansas,2011,2014,30.0,,,,,,,,,,,,,,DB,Kansas,,,,,,,,,,,,,,,,,,,,,4.0,0.0,23.0,2.0,DB
+Akeem King,,ATL,7,249,2015,San Jose State,2013,2014,20.0,,,,,,,,,,,,,,CB,San Jose State,,,,,,,,,,,,,,,,,,,,,0.0,0.0,4.0,0.0,DB
+Taurean Nixon,,DEN,7,251,2015,Tulane,2013,2014,17.0,,,,,,,,,,,,,,CB,Tulane,,,,,,,,,,,,,,,,,,,,,1.0,0.0,5.0,0.0,DB
+Jalen Ramsey,,JAX,1,5,2016,Florida State,2013,2015,41.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,23.0,28.0,DB
+Eli Apple,,NYG,1,10,2016,Ohio State,2014,2015,28.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,4.0,0.0,18.0,9.0,DB
+Vernon Hargreaves III,,TAM,1,11,2016,Florida,2013,2015,37.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,10.0,0.0,27.0,10.0,DB
+Karl Joseph,,RAI,1,14,2016,West Virginia,2012,2015,42.0,,,,,,,,,,,,,,DB,West Virginia,,,,,,,,,,,,,,,,,,,,,9.0,0.0,8.0,14.0,DB
+Keanu Neal,,ATL,1,17,2016,Florida,2013,2015,26.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,4.0,0.0,5.0,17.0,DB
+William Jackson III,,CIN,1,24,2016,Houston,2015,2015,13.0,,,,,,,,,,,,,,CB,Houston,,,,,,,,,,,,,,,,,,,,,5.0,2.0,23.0,15.0,DB
+Artie Burns,,PIT,1,25,2016,Miami (FL),2013,2015,35.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,7.0,0.0,14.0,14.0,DB
+Xavien Howard,,MIA,2,38,2016,Baylor,2013,2015,29.0,,,,,,,,,,,,,,DB,Baylor,,,,,,,,,,,,,,,,,,,,,10.0,0.0,23.0,56.0,DB
+Su'A Cravens,,WAS,2,53,2016,USC,2013,2015,40.0,,,,,,,,,,,,,,S,USC,,,,,,,,,,,,,,,,,,,,,9.0,1.0,16.0,4.0,DB
+Mackensie Alexander,,MIN,2,54,2016,Clemson,2014,2015,27.0,,,,,,,,,,,,,,CB,Clemson,,,,,,,,,,,,,,,,,,,,,0.0,0.0,11.0,8.0,DB
+T.J. Green,,CLT,2,57,2016,Clemson,2013,2015,31.0,,,,,,,,,,,,,,S,Clemson,,,,,,,,,,,,,,,,,,,,,1.0,0.0,3.0,5.0,DB
+Sean Davis,,PIT,2,58,2016,Maryland,2012,2015,50.0,,,,,,,,,,,,,,DB,Maryland,,,,,,,,,,,,,,,,,,,,,5.0,0.0,14.0,18.0,DB
+Vonn Bell,,NOR,2,61,2016,Ohio State,2013,2015,36.0,,,,,,,,,,,,,,DB,Ohio State,,,,,,,,,,,,,,,,,,,,,9.0,1.0,15.0,12.0,DB
+James Bradberry,,CAR,2,62,2016,,2011,2011,1.0,,,,,,,,,,,,,,DB,Arkansas State,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,16.0,DB
+Kevin Byard,,OTI,3,64,2016,Middle Tennessee State,2012,2015,49.0,,,,,,,,,,,,,,DB,Middle Tennessee State,,,,,,,,,,,,,,,,,,,,,19.0,4.0,15.0,49.0,DB
+Darian Thompson,,NYG,3,71,2016,Boise State,2012,2015,47.0,,,,,,,,,,,,,,DB,Boise State,,,,,,,,,,,,,,,,,,,,,19.0,1.0,6.0,6.0,DB
+Daryl Worley,,CAR,3,77,2016,West Virginia,2013,2015,34.0,,,,,,,,,,,,,,CB,West Virginia,,,,,,,,,,,,,,,,,,,,,10.0,0.0,21.0,11.0,DB
+Kendall Fuller,,WAS,3,84,2016,Virginia Tech,2013,2015,29.0,,,,,,,,,,,,,,CB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,8.0,1.0,27.0,26.0,DB
+Justin Simmons,,DEN,3,98,2016,Boston College,2012,2015,45.0,,,,,,,,,,,,,,DB,Boston College,,,,,,,,,,,,,,,,,,,,,8.0,0.0,10.0,56.0,DB
+Tavon Young,,RAV,4,104,2016,Temple,2012,2015,47.0,,,,,,,,,,,,,,DB,Temple,,,,,,,,,,,,,,,,,,,,,7.0,1.0,21.0,14.0,DB
+Eric Murray,,KAN,4,106,2016,Minnesota,2012,2015,51.0,,,,,,,,,,,,,,DB,Minnesota,,,,,,,,,,,,,,,,,,,,,2.0,0.0,24.0,5.0,DB
+Juston Burris,,NYJ,4,118,2016,North Carolina State,2013,2015,38.0,,,,,,,,,,,,,,CB,North Carolina State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,18.0,3.0,DB
+Deon Bush,,CHI,4,124,2016,Miami (FL),2012,2015,45.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,4.0,0.0,13.0,7.0,DB
+Derrick Kindred,,CLE,4,129,2016,Texas Christian,2012,2015,50.0,,,,,,,,,,,,,,DB,Texas Christian,,,,,,,,,,,,,,,,,,,,,8.0,2.0,15.0,8.0,DB
+Rashard Robinson,,SFO,4,133,2016,LSU,2013,2014,15.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,1.0,0.0,3.0,6.0,DB
+Zack Sanchez,,CAR,5,141,2016,Oklahoma,2013,2015,36.0,,,,,,,,,,,,,,DB,Oklahoma,,,,,,,,,,,,,,,,,,,,,15.0,3.0,28.0,1.0,DB
+K.J. Dillon,,HTX,5,159,2016,West Virginia,2012,2015,47.0,,,,,,,,,,,,,,DB,West Virginia,,,,,,,,,,,,,,,,,,,,,5.0,1.0,21.0,0.0,DB
+Trey Caldwell,,CLE,5,173,2016,Louisiana-Monroe,2012,2015,48.0,,,,,,,,,,,,,,DB,Louisiana-Monroe,,,,,,,,,,,,,,,,,,,,,2.0,1.0,21.0,0.0,DB
+D.J. White,,KAN,6,178,2016,Georgia Tech,2013,2015,37.0,,,,,,,,,,,,,,CB,Georgia Tech,,,,,,,,,,,,,,,,,,,,,7.0,1.0,21.0,1.0,DB
+Anthony Brown,,DAL,6,189,2016,Purdue,2012,2015,46.0,,,,,,,,,,,,,,DB,Purdue,,,,,,,,,,,,,,,,,,,,,4.0,0.0,19.0,23.0,DB
+Blake Countess,,PHI,6,196,2016,Auburn,2011,2015,50.0,,,,,,,,,,,,,,DB,AuburnMichigan,,,,,,,,,,,,,,,,,,,,,8.0,1.0,24.0,0.0,DB
+Jordan Lucas,,MIA,6,204,2016,Penn State,2012,2015,46.0,,,,,,,,,,,,,,DB,Penn State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,25.0,1.0,DB
+Maurice Canady,,RAV,6,209,2016,Virginia,2012,2015,44.0,,,,,,,,,,,,,,DB,Virginia,,,,,,,,,,,,,,,,,,,,,5.0,1.0,26.0,2.0,DB
+Kavon Frazier,,DAL,6,212,2016,Central Michigan,2012,2015,49.0,,,,,,,,,,,,,,DB,Central Michigan,,,,,,,,,,,,,,,,,,,,,5.0,1.0,13.0,3.0,DB
+Kevon Seymour,,BUF,6,218,2016,USC,2012,2015,44.0,,,,,,,,,,,,,,DB,USC,,,,,,,,,,,,,,,,,,,,,3.0,0.0,19.0,1.0,DB
+William Parks,,DEN,6,219,2016,Arizona,2012,2015,51.0,,,,,,,,,,,,,,DB,Arizona,,,,,,,,,,,,,,,,,,,,,4.0,1.0,20.0,8.0,DB
+Jalen Mills,,PHI,7,233,2016,LSU,2012,2015,46.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,6.0,0.0,11.0,18.0,DB
+Jayron Kearse,,MIN,7,244,2016,Clemson,2013,2015,40.0,,,,,,,,,,,,,,S,Clemson,,,,,,,,,,,,,,,,,,,,,7.0,0.0,11.0,4.0,DB
+Clayton Fejedelem,,CIN,7,245,2016,Illinois,2014,2015,25.0,,,,,,,,,,,,,,DB,Illinois,,,,,,,,,,,,,,,,,,,,,2.0,0.0,9.0,6.0,DB
+Prince Iworah,,SFO,7,249,2016,Western Kentucky,2012,2015,33.0,,,,,,,,,,,,,,DB,Western Kentucky,,,,,,,,,,,,,,,,,,,,,5.0,0.0,16.0,0.0,DB
+Kalan Reed,,OTI,7,253,2016,Southern Mississippi,2013,2015,36.0,,,,,,,,,,,,,,DB,Southern Mississippi,,,,,,,,,,,,,,,,,,,,,7.0,2.0,30.0,0.0,DB
+Jamal Adams,,NYJ,1,6,2017,LSU,2014,2016,37.0,,,,,,,,,,,,,,S,LSU,,,,,,,,,,,,,,,,,,,,,5.0,0.0,15.0,29.0,DB
+Marshon Lattimore,,NOR,1,11,2017,Ohio State,2015,2016,19.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,4.0,1.0,12.0,41.0,DB
+Malik Hooker,,CLT,1,15,2017,Ohio State,2015,2016,25.0,,,,,,,,,,,,,,S,Ohio State,,,,,,,,,,,,,,,,,,,,,7.0,3.0,4.0,13.0,DB
+Marlon Humphrey,,RAV,1,16,2017,Alabama,2015,2016,30.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,5.0,1.0,13.0,62.0,DB
+Adoree Jackson,,OTI,1,18,2017,USC,2014,2016,40.0,,,,,,,,,,,,,,CB,USC,,,,,,,,,,,,,,,,,,,,,6.0,1.0,29.0,15.0,DB
+Gareon Conley,,RAI,1,24,2017,Ohio State,2014,2016,41.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,6.0,0.0,15.0,7.0,DB
+Tre'Davious White,,BUF,1,27,2017,LSU,2013,2016,48.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,6.0,1.0,34.0,52.0,DB
+Kevin King,,GNB,2,33,2017,Washington,2013,2016,43.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,6.0,0.0,22.0,15.0,DB
+Budda Baker,,CRD,2,36,2017,Washington,2014,2016,40.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,5.0,0.0,19.0,63.0,DB
+Marcus Maye,,NYJ,2,39,2017,Florida,2013,2016,41.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,5.0,0.0,17.0,21.0,DB
+Marcus Williams,,NOR,2,42,2017,Utah,2014,2016,37.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,11.0,0.0,8.0,24.0,DB
+Sidney Jones,,PHI,2,43,2017,Washington,2014,2016,40.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,9.0,1.0,21.0,5.0,DB
+Quincy Wilson,,CLT,2,46,2017,Florida,2014,2016,39.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,6.0,1.0,14.0,4.0,DB
+Justin Evans,,TAM,2,50,2017,Texas A&M,2015,2016,25.0,,,,,,,,,,,,,,DB,Texas A&M,,,,,,,,,,,,,,,,,,,,,5.0,0.0,11.0,8.0,DB
+Jalen Tabor,,DET,2,53,2017,Florida,2014,2016,37.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,9.0,3.0,28.0,3.0,DB
+Obi Melifonwu,,RAI,2,56,2017,Connecticut,2013,2016,48.0,,,,,,,,,,,,,,S,Connecticut,,,,,,,,,,,,,,,,,,,,,8.0,0.0,16.0,1.0,DB
+Chidobe Awuzie,,DAL,2,60,2017,Colorado,2013,2016,48.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,3.0,0.0,28.0,14.0,DB
+Josh Jones,,GNB,2,61,2017,North Carolina State,2014,2016,38.0,,,,,,,,,,,,,,S,North Carolina State,,,,,,,,,,,,,,,,,,,,,8.0,0.0,17.0,5.0,DB
+Ahkello Witherspoon,,SFO,3,66,2017,Colorado,2014,2016,37.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,3.0,0.0,27.0,12.0,DB
+Fabian Moreau,,WAS,3,81,2017,UCLA,2012,2016,50.0,,,,,,,,,,,,,,DB,UCLA,,,,,,,,,,,,,,,,,,,,,3.0,0.0,23.0,8.0,DB
+Shaquill Griffin,,SEA,3,90,2017,UCF,2013,2016,40.0,,,,,,,,,,,,,,DB,UCF,,,,,,,,,,,,,,,,,,,,,7.0,2.0,29.0,21.0,DB
+John Johnson,,RAM,3,91,2017,Boston College,2013,2016,36.0,,,,,,,,,,,,,,CB,Boston College,,,,,,,,,,,,,,,,,,,,,6.0,0.0,14.0,19.0,DB
+Jourdan Lewis,,DAL,3,92,2017,Michigan,2013,2016,42.0,,,,,,,,,,,,,,DB,Michigan,,,,,,,,,,,,,,,,,,,,,6.0,1.0,39.0,23.0,DB
+Cameron Sutton,,PIT,3,94,2017,Tennessee,2013,2016,44.0,,,,,,,,,,,,,,DB,Tennessee,,,,,,,,,,,,,,,,,,,,,7.0,1.0,30.0,16.0,DB
+Delano Hill,,SEA,3,95,2017,Michigan,2013,2016,34.0,,,,,,,,,,,,,,DB,Michigan,,,,,,,,,,,,,,,,,,,,,3.0,1.0,5.0,5.0,DB
+Cordrea Tankersley,,MIA,3,97,2017,Clemson,2013,2016,45.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,9.0,1.0,20.0,4.0,DB
+Rasul Douglas,,PHI,3,99,2017,West Virginia,2015,2016,23.0,,,,,,,,,,,,,,CB,West Virginia,,,,,,,,,,,,,,,,,,,,,9.0,1.0,9.0,6.0,DB
+Tedric Thompson,,SEA,4,111,2017,Colorado,2013,2016,46.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,13.0,0.0,26.0,8.0,DB
+Eddie Jackson,,CHI,4,112,2017,Alabama,2013,2016,40.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,9.0,3.0,12.0,45.0,DB
+Rayshawn Jenkins,,SDG,4,113,2017,Miami (FL),2012,2016,48.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,9.0,0.0,15.0,11.0,DB
+Montae Nicholson,,WAS,4,123,2017,Michigan State,2014,2016,38.0,,,,,,,,,,,,,,DB,Michigan State,,,,,,,,,,,,,,,,,,,,,4.0,0.0,4.0,10.0,DB
+Damontae Kazee,,ATL,5,149,2017,San Diego State,2013,2016,53.0,,,,,,,,,,,,,,DB,San Diego State,,,,,,,,,,,,,,,,,,,,,17.0,2.0,30.0,12.0,DB
+Desmond King,,SDG,5,151,2017,Iowa,2013,2016,53.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,14.0,3.0,33.0,16.0,DB
+Corn Elder,,CAR,5,152,2017,Miami (FL),2013,2016,45.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,3.0,0.0,27.0,2.0,DB
+Nathan Hairston,,CLT,5,158,2017,Temple,2015,2016,28.0,,,,,,,,,,,,,,DB,Temple,,,,,,,,,,,,,,,,,,,,,2.0,0.0,4.0,5.0,DB
+Treston Decoud,,HTX,5,169,2017,Oregon State,2015,2016,23.0,,,,,,,,,,,,,,CB,Oregon State,,,,,,,,,,,,,,,,,,,,,2.0,1.0,15.0,1.0,DB
+Brian Allen,,PIT,5,173,2017,Utah,2015,2016,26.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,5.0,0.0,9.0,1.0,DB
+Nathan Gerry,,PHI,5,184,2017,Nebraska,2013,2016,48.0,,,,,,,,,,,,,,DB,Nebraska,,,,,,,,,,,,,,,,,,,,,13.0,0.0,19.0,18.0,DB
+Chuck Clark,,RAV,6,186,2017,Virginia Tech,2013,2016,50.0,,,,,,,,,,,,,,S,Virginia Tech,,,,,,,,,,,,,,,,,,,,,2.0,0.0,21.0,27.0,DB
+Xavier Woods,,DAL,6,191,2017,Louisiana Tech,2013,2016,53.0,,,,,,,,,,,,,,DB,Louisiana Tech,,,,,,,,,,,,,,,,,,,,,14.0,2.0,18.0,16.0,DB
+Jeremy Clark,,NYJ,6,197,2017,Michigan,2014,2016,28.0,,,,,,,,,,,,,,DB,Michigan,,,,,,,,,,,,,,,,,,,,,3.0,0.0,7.0,0.0,DB
+Brandon Wilson,,CIN,6,207,2017,Houston,2013,2016,41.0,,,,,,,,,,,,,,DB,Houston,,,,,,,,,,,,,,,,,,,,,2.0,1.0,15.0,6.0,DB
+Leon McQuay III,,KAN,6,218,2017,USC,2013,2016,43.0,,,,,,,,,,,,,,CB,USC,,,,,,,,,,,,,,,,,,,,,5.0,0.0,17.0,0.0,DB
+Shalom Luani,,RAI,7,221,2017,Washington State,2015,2016,25.0,,,,,,,,,,,,,,S,Washington State,,,,,,,,,,,,,,,,,,,,,8.0,1.0,12.0,1.0,DB
+Jalen Myrick,,JAX,7,222,2017,Minnesota,2013,2016,47.0,,,,,,,,,,,,,,DB,Minnesota,,,,,,,,,,,,,,,,,,,,,5.0,2.0,21.0,0.0,DB
+Adrian Colbert,,SFO,7,229,2017,Miami (FL),2013,2016,40.0,,,,,,,,,,,,,,S,Miami (FL)Texas,,,,,,,,,,,,,,,,,,,,,2.0,0.0,4.0,5.0,DB
+Josh Harvey-Clemons,,WAS,7,230,2017,Louisville,2012,2016,47.0,,,,,,,,,,,,,,DB,GeorgiaLouisville,,,,,,,,,,,,,,,,,,,,,4.0,0.0,11.0,4.0,DB
+Joshua Holsey,,WAS,7,235,2017,Auburn,2012,2016,44.0,,,,,,,,,,,,,,DB,Auburn,,,,,,,,,,,,,,,,,,,,,4.0,0.0,19.0,1.0,DB
+Denzel Ward,,CLE,1,4,2018,Ohio State,2015,2017,37.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,24.0,49.0,DB
+Minkah Fitzpatrick,,MIA,1,11,2018,Alabama,2015,2017,42.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,9.0,4.0,26.0,7.0,DB
+Derwin James,,SDG,1,17,2018,Florida State,2015,2017,27.0,,,,,,,,,,,,,,DB,Florida State,,,,,,,,,,,,,,,,,,,,,3.0,1.0,15.0,46.0,DB
+Jaire Alexander,,GNB,1,18,2018,Louisville,2015,2017,31.0,,,,,,,,,,,,,,CB,Louisville,,,,,,,,,,,,,,,,,,,,,7.0,0.0,15.0,34.0,DB
+Terrell Edmunds,,PIT,1,28,2018,Virginia Tech,2017,2017,10.0,,,,,,,,,,,,,,S,Virginia Tech,,,,,,,,,,,,,,,,,,,,,2.0,0.0,4.0,25.0,DB
+Mike Hughes,,MIN,1,30,2018,UCF,2015,2017,26.0,,,,,,,,,,,,,,CB,North CarolinaUCF,,,,,,,,,,,,,,,,,,,,,4.0,1.0,14.0,4.0,DB
+Joshua Jackson,,GNB,2,45,2018,Iowa,2016,2017,25.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,8.0,2.0,22.0,7.0,DB
+M.J. Stewart,,TAM,2,53,2018,North Carolina,2014,2017,50.0,,,,,,,,,,,,,,CB,North Carolina,,,,,,,,,,,,,,,,,,,,,6.0,0.0,41.0,3.0,DB
+Jessie Bates,,CIN,2,54,2018,Wake Forest,2016,2017,24.0,,,,,,,,,,,,,,DB,Wake Forest,,,,,,,,,,,,,,,,,,,,,6.0,2.0,9.0,28.0,DB
+Donte Jackson,,CAR,2,55,2018,LSU,2015,2017,37.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,4.0,0.0,20.0,23.0,DB
+Isaiah Oliver,,ATL,2,58,2018,Colorado,2016,2017,24.0,,,,,,,,,,,,,,DB,Colorado,,,,,,,,,,,,,,,,,,,,,3.0,0.0,20.0,12.0,DB
+Carlton Davis,,TAM,2,63,2018,Auburn,2015,2017,38.0,,,,,,,,,,,,,,DB,Auburn,,,,,,,,,,,,,,,,,,,,,4.0,0.0,29.0,24.0,DB
+Justin Reid,,HTX,3,68,2018,Stanford,2015,2017,40.0,,,,,,,,,,,,,,S,Stanford,,,,,,,,,,,,,,,,,,,,,6.0,0.0,14.0,14.0,DB
+Tracy Walker,,DET,3,82,2018,Louisiana,2014,2017,50.0,,,,,,,,,,,,,,S,Louisiana,,,,,,,,,,,,,,,,,,,,,8.0,0.0,18.0,13.0,DB
+Rashaan Gaulden,,CAR,3,85,2018,Tennessee,2014,2017,36.0,,,,,,,,,,,,,,DB,Tennessee,,,,,,,,,,,,,,,,,,,,,1.0,0.0,9.0,1.0,DB
+Ronnie Harrison,,JAX,3,93,2018,Alabama,2015,2017,44.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,7.0,1.0,17.0,10.0,DB
+Tarvarius Moore,,SFO,3,95,2018,Southern Mississippi,2016,2017,26.0,,,,,,,,,,,,,,DB,Southern Mississippi,,,,,,,,,,,,,,,,,,,,,5.0,0.0,12.0,8.0,DB
+Isaac Yiadom,,DEN,3,99,2018,Boston College,2014,2017,48.0,,,,,,,,,,,,,,DB,Boston College,,,,,,,,,,,,,,,,,,,,,3.0,0.0,23.0,5.0,DB
+Troy Apke,,WAS,4,109,2018,Penn State,2017,2017,13.0,,,,,,,,,,,,,,S,Penn State,,,,,,,,,,,,,,,,,,,,,1.0,0.0,5.0,6.0,DB
+Nick Nelson,,RAI,4,110,2018,Wisconsin,2014,2017,37.0,,,,,,,,,,,,,,DB,HawaiiWisconsin,,,,,,,,,,,,,,,,,,,,,0.0,0.0,42.0,1.0,DB
+Jordan Whitehead,,TAM,4,117,2018,Pitt,2015,2017,31.0,,,,,,,,,,,,,,DB,Pitt,,,,,,,,,,,,,,,,,,,,,3.0,1.0,12.0,21.0,DB
+Anthony Averett,,RAV,4,118,2018,Alabama,2015,2017,35.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,1.0,0.0,16.0,10.0,DB
+Kyzir White,,SDG,4,119,2018,West Virginia,2016,2017,25.0,,,,,,,,,,,,,,S,West Virginia,,,,,,,,,,,,,,,,,,,,,3.0,0.0,9.0,17.0,DB
+Armani Watts,,KAN,4,124,2018,Texas A&M,2014,2017,47.0,,,,,,,,,,,,,,DB,Texas A&M,,,,,,,,,,,,,,,,,,,,,10.0,0.0,19.0,3.0,DB
+Avonte Maddox,,PHI,4,125,2018,Pitt,2014,2017,46.0,,,,,,,,,,,,,,DB,Pitt,,,,,,,,,,,,,,,,,,,,,8.0,2.0,34.0,16.0,DB
+D.J Reed,,SFO,5,142,2018,Kansas State,2016,2017,24.0,,,,,,,,,,,,,,DB,Kansas State,,,,,,,,,,,,,,,,,,,,,7.0,1.0,25.0,1.0,DB
+Tre Flowers,,SEA,5,146,2018,Oklahoma State,2014,2017,51.0,,,,,,,,,,,,,,S,Oklahoma State,,,,,,,,,,,,,,,,,,,,,4.0,0.0,25.0,15.0,DB
+Marcus Allen,,PIT,5,148,2018,Penn State,2014,2017,52.0,,,,,,,,,,,,,,S,Penn State,,,,,,,,,,,,,,,,,,,,,1.0,0.0,11.0,6.0,DB
+Dane Cruikshank,,OTI,5,152,2018,Arizona,2016,2017,25.0,,,,,,,,,,,,,,CB,Arizona,,,,,,,,,,,,,,,,,,,,,5.0,0.0,12.0,4.0,DB
+Darius Phillips,,CIN,5,170,2018,Western Michigan,2015,2017,39.0,,,,,,,,,,,,,,CB,Western Michigan,,,,,,,,,,,,,,,,,,,,,12.0,5.0,35.0,7.0,DB
+Parry Nickerson,,NYJ,6,179,2018,Tulane,2013,2017,48.0,,,,,,,,,,,,,,CB,Tulane,,,,,,,,,,,,,,,,,,,,,16.0,1.0,31.0,1.0,DB
+Marcell Harris,,SFO,6,184,2018,Florida,2014,2016,37.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,2.0,0.0,1.0,13.0,DB
+DeShon Elliott,,RAV,6,190,2018,Texas,2015,2017,30.0,,,,,,,,,,,,,,S,Texas,,,,,,,,,,,,,,,,,,,,,9.0,2.0,14.0,9.0,DB
+Cornell Armstrong,,MIA,6,209,2018,Southern Mississippi,2014,2017,47.0,,,,,,,,,,,,,,DB,Southern Mississippi,,,,,,,,,,,,,,,,,,,,,5.0,1.0,29.0,1.0,DB
+Greg Stroman,,WAS,7,241,2018,Virginia Tech,2014,2017,37.0,,,,,,,,,,,,,,CB,Virginia Tech,,,,,,,,,,,,,,,,,,,,,7.0,1.0,22.0,2.0,DB
+Darnell Savage Jr.,,GNB,1,21,2019,Maryland,2015,2018,46.0,,,,,,,,,,,,,,DB,Maryland,,,,,,,,,,,,,,,,,,,,,8.0,2.0,14.0,21.0,DB
+Johnathan Abram,,RAI,1,27,2019,Mississippi State,2015,2018,36.0,,,,,,,,,,,,,,S,GeorgiaMississippi State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,10.0,10.0,DB
+Deandre Baker,,NYG,1,30,2019,Georgia,2015,2018,51.0,,,,,,,,,,,,,,CB,Georgia,,,,,,,,,,,,,,,,,,,,,1.0,0.0,7.0,5.0,DB
+Byron Murphy,,CRD,2,33,2019,Washington,2017,2018,20.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,7.0,1.0,20.0,16.0,DB
+Rock Ya-Sin,,CLT,2,34,2019,Temple,2018,2018,12.0,,,,,,,,,,,,,,CB,Temple,,,,,,,,,,,,,,,,,,,,,2.0,0.0,12.0,11.0,DB
+Sean Bunting,,TAM,2,39,2019,Central Michigan,2016,2018,38.0,,,,,,,,,,,,,,DB,Central Michigan,,,,,,,,,,,,,,,,,,,,,9.0,0.0,15.0,14.0,DB
+Trayvon Mullen,,RAI,2,40,2019,Clemson,2016,2018,41.0,,,,,,,,,,,,,,CB,Clemson,,,,,,,,,,,,,,,,,,,,,4.0,0.0,7.0,11.0,DB
+Joejuan Williams,,NWE,2,45,2019,Vanderbilt,2016,2018,36.0,,,,,,,,,,,,,,CB,Vanderbilt,,,,,,,,,,,,,,,,,,,,,4.0,0.0,26.0,3.0,DB
+Greedy Williams,,CLE,2,46,2019,LSU,2017,2018,25.0,,,,,,,,,,,,,,CB,LSU,,,,,,,,,,,,,,,,,,,,,8.0,0.0,20.0,8.0,DB
+Marquise Blair,,SEA,2,47,2019,Utah,2017,2018,23.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,2.0,0.0,4.0,2.0,DB
+Lonnie Johnson,,HTX,2,54,2019,Kentucky,2017,2018,26.0,,,,,,,,,,,,,,CB,Kentucky,,,,,,,,,,,,,,,,,,,,,1.0,0.0,9.0,8.0,DB
+Taylor Rapp,,RAM,2,61,2019,Washington,2016,2018,40.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,7.0,1.0,7.0,18.0,DB
+Juan Thornhill,,KAN,2,63,2019,Virginia,2015,2018,46.0,,,,,,,,,,,,,,S,Virginia,,,,,,,,,,,,,,,,,,,,,13.0,0.0,26.0,17.0,DB
+David Long,,RAM,3,79,2019,Michigan,2017,2018,26.0,,,,,,,,,,,,,,DB,Michigan,,,,,,,,,,,,,,,,,,,,,3.0,0.0,14.0,6.0,DB
+William Harris,,DET,3,81,2019,Boston College,2015,2018,50.0,,,,,,,,,,,,,,DB,Boston College,,,,,,,,,,,,,,,,,,,,,5.0,0.0,7.0,11.0,DB
+Justin Layne,,PIT,3,83,2019,Michigan State,2017,2018,25.0,,,,,,,,,,,,,,CB,Michigan State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,23.0,3.0,DB
+Jamel Dean,,TAM,3,94,2019,Auburn,2017,2018,26.0,,,,,,,,,,,,,,DB,Auburn,,,,,,,,,,,,,,,,,,,,,2.0,0.0,17.0,27.0,DB
+Mike Edwards,,TAM,3,99,2019,Kentucky,2015,2018,51.0,,,,,,,,,,,,,,S,Kentucky,,,,,,,,,,,,,,,,,,,,,10.0,2.0,23.0,14.0,DB
+Chauncey Gardner,,NOR,4,105,2019,Florida,2016,2018,37.0,,,,,,,,,,,,,,DB,Florida,,,,,,,,,,,,,,,,,,,,,9.0,3.0,12.0,10.0,DB
+Julian Love,,NYG,4,108,2019,Notre Dame,2016,2018,38.0,,,,,,,,,,,,,,CB,Notre Dame,,,,,,,,,,,,,,,,,,,,,5.0,2.0,39.0,12.0,DB
+Khari Willis,,CLT,4,109,2019,Michigan State,2015,2018,45.0,,,,,,,,,,,,,,S,Michigan State,,,,,,,,,,,,,,,,,,,,,4.0,0.0,16.0,12.0,DB
+Kendall Sheffield,,ATL,4,111,2019,Ohio State,2017,2018,28.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,17.0,6.0,DB
+Amani Hooker,,OTI,4,116,2019,Iowa,2016,2018,37.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,6.0,1.0,9.0,24.0,DB
+Sheldrick Redwine,,CLE,4,119,2019,Miami (FL),2015,2018,49.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,5.0,0.0,10.0,4.0,DB
+Iman Marshall,,RAV,4,127,2019,USC,2015,2018,50.0,,,,,,,,,,,,,,CB,USC,,,,,,,,,,,,,,,,,,,,,6.0,0.0,36.0,0.0,DB
+Isaiah Johnson,,RAI,4,129,2019,Houston,2017,2018,23.0,,,,,,,,,,,,,,CB,Houston,,,,,,,,,,,,,,,,,,,,,4.0,0.0,14.0,1.0,DB
+Ugo Amadi,,SEA,4,132,2019,Oregon,2015,2018,51.0,,,,,,,,,,,,,,CB,Oregon,,,,,,,,,,,,,,,,,,,,,8.0,2.0,25.0,6.0,DB
+Deionte Thompson,,CRD,5,139,2019,Alabama,2016,2018,43.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,3.0,0.0,7.0,4.0,DB
+Marvell Tell III,,CLT,5,144,2019,USC,2015,2018,47.0,,,,,,,,,,,,,,S,USC,,,,,,,,,,,,,,,,,,,,,5.0,1.0,13.0,1.0,DB
+Amani Oruwariye,,DET,5,146,2019,Penn State,2015,2018,48.0,,,,,,,,,,,,,,CB,Penn State,,,,,,,,,,,,,,,,,,,,,8.0,1.0,22.0,11.0,DB
+Jordan Miller,,ATL,5,172,2019,Washington,2015,2018,46.0,,,,,,,,,,,,,,DB,Washington,,,,,,,,,,,,,,,,,,,,,6.0,0.0,12.0,1.0,DB
+Saquan Hampton,,NOR,6,177,2019,Rutgers,2015,2018,39.0,,,,,,,,,,,,,,DB,Rutgers,,,,,,,,,,,,,,,,,,,,,5.0,0.0,19.0,0.0,DB
+Jaquan Johnson,,BUF,6,181,2019,Miami (FL),2015,2018,50.0,,,,,,,,,,,,,,DB,Miami (FL),,,,,,,,,,,,,,,,,,,,,8.0,1.0,7.0,5.0,DB
+Ka'dar Hollman,,GNB,6,185,2019,Toledo,2015,2018,42.0,,,,,,,,,,,,,,DB,Toledo,,,,,,,,,,,,,,,,,,,,,2.0,0.0,27.0,1.0,DB
+Marcus Epps,,MIN,6,191,2019,Wyoming,2015,2018,50.0,,,,,,,,,,,,,,S,Wyoming,,,,,,,,,,,,,,,,,,,,,9.0,1.0,22.0,0.0,DB
+Xavier Crawford,,HTX,6,195,2019,Central Michigan,2016,2018,28.0,,,,,,,,,,,,,,CB,Central MichiganOregon State,,,,,,,,,,,,,,,,,,,,,2.0,0.0,24.0,0.0,DB
+Blessuan Austin,,NYJ,6,196,2019,Rutgers,2015,2018,27.0,,,,,,,,,,,,,,DB,Rutgers,,,,,,,,,,,,,,,,,,,,,4.0,1.0,19.0,5.0,DB
+Tim Harris,,SFO,6,198,2019,Virginia,2013,2018,43.0,,,,,,,,,,,,,,DB,Virginia,,,,,,,,,,,,,,,,,,,,,4.0,0.0,17.0,0.0,DB
+Rashad Fenton,,KAN,6,201,2019,South Carolina,2015,2018,48.0,,,,,,,,,,,,,,CB,South Carolina,,,,,,,,,,,,,,,,,,,,,5.0,0.0,19.0,7.0,DB
+Duke Shelley,,CHI,6,205,2019,Kansas State,2015,2018,38.0,,,,,,,,,,,,,,DB,Kansas State,,,,,,,,,,,,,,,,,,,,,8.0,2.0,31.0,3.0,DB
+Donovan Wilson,,DAL,6,213,2019,Texas A&M,2014,2018,47.0,,,,,,,,,,,,,,DB,Texas A&M,,,,,,,,,,,,,,,,,,,,,8.0,1.0,8.0,23.0,DB
+Kris Boyd,,MIN,7,217,2019,Texas,2015,2018,51.0,,,,,,,,,,,,,,CB,Texas,,,,,,,,,,,,,,,,,,,,,4.0,0.0,36.0,6.0,DB
+Nick Scott,,RAM,7,243,2019,Penn State,2016,2018,39.0,,,,,,,,,,,,,,CB,Penn State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,2.0,7.0,DB
+Jeffrey Okudah,,DET,1,3,2020,Ohio State,2017,2019,41.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,3.0,0.0,18.0,7.0,DB
+C.J. Henderson,,JAX,1,9,2020,Florida,2017,2019,33.0,,,,,,,,,,,,,,CB,Florida,,,,,,,,,,,,,,,,,,,,,6.0,2.0,22.0,4.0,DB
+A.J. Terrell,,ATL,1,16,2020,Clemson,2017,2019,44.0,,,,,,,,,,,,,,CB,Clemson,,,,,,,,,,,,,,,,,,,,,6.0,1.0,14.0,31.0,DB
+Damon Arnette,,RAI,1,19,2020,Ohio State,2016,2019,53.0,,,,,,,,,,,,,,CB,Ohio State,,,,,,,,,,,,,,,,,,,,,5.0,1.0,22.0,2.0,DB
+Noah Igbinoghene,,MIA,1,30,2020,Auburn,2019,2019,13.0,,,,,,,,,,,,,,DB,Auburn,,,,,,,,,,,,,,,,,,,,,0.0,0.0,7.0,4.0,DB
+Jeff Gladney,,MIN,1,31,2020,Texas Christian,2016,2019,50.0,,,,,,,,,,,,,,CB,Texas Christian,,,,,,,,,,,,,,,,,,,,,5.0,0.0,38.0,5.0,DB
+Xavier McKinney,,NYG,2,36,2020,Alabama,2017,2019,41.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,5.0,2.0,15.0,15.0,DB
+Grant Delpit,,CLE,2,44,2020,LSU,2017,2019,40.0,,,,,,,,,,,,,,S,LSU,,,,,,,,,,,,,,,,,,,,,8.0,0.0,24.0,26.0,DB
+Antoine Winfield Jr.,,TAM,2,45,2020,Minnesota,2016,2019,34.0,,,,,,,,,,,,,,DB,Minnesota,,,,,,,,,,,,,,,,,,,,,9.0,2.0,6.0,44.0,DB
+Jaylon Johnson,,CHI,2,50,2020,Utah,2017,2019,38.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,7.0,2.0,21.0,30.0,DB
+Trevon Diggs,,DAL,2,51,2020,Alabama,2017,2019,31.0,,,,,,,,,,,,,,DB,Alabama,,,,,,,,,,,,,,,,,,,,,4.0,1.0,17.0,33.0,DB
+Kristian Fulton,,OTI,2,61,2020,LSU,2016,2019,28.0,,,,,,,,,,,,,,DB,LSU,,,,,,,,,,,,,,,,,,,,,2.0,0.0,23.0,13.0,DB
+Ashtyn Davis,,NYJ,3,68,2020,California,2016,2019,48.0,,,,,,,,,,,,,,CB,California,,,,,,,,,,,,,,,,,,,,,7.0,1.0,12.0,10.0,DB
+Brandon Jones,,MIA,3,70,2020,Texas,2016,2019,47.0,,,,,,,,,,,,,,DB,Texas,,,,,,,,,,,,,,,,,,,,,4.0,0.0,7.0,10.0,DB
+Michael Ojemudia,,DEN,3,77,2020,Iowa,2016,2019,51.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,6.0,0.0,17.0,4.0,DB
+Julian Blackmon,,CLT,3,85,2020,Utah,2016,2019,49.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,9.0,2.0,20.0,20.0,DB
+Cameron Dantzler,,MIN,3,89,2020,Mississippi State,2017,2019,35.0,,,,,,,,,,,,,,DB,Mississippi State,,,,,,,,,,,,,,,,,,,,,5.0,0.0,20.0,10.0,DB
+Terrell Burgess,,RAM,3,104,2020,Utah,2016,2019,45.0,,,,,,,,,,,,,,DB,Utah,,,,,,,,,,,,,,,,,,,,,1.0,0.0,9.0,2.0,DB
+Darnay Holmes,,NYG,4,110,2020,UCLA,2017,2019,35.0,,,,,,,,,,,,,,DB,UCLA,,,,,,,,,,,,,,,,,,,,,8.0,2.0,20.0,7.0,DB
+Troy Pride Jr.,,CAR,4,113,2020,Notre Dame,2016,2019,46.0,,,,,,,,,,,,,,CB,Notre Dame,,,,,,,,,,,,,,,,,,,,,4.0,0.0,18.0,3.0,DB
+Reginald Robinson II,,DAL,4,123,2020,Tulsa,2016,2018,29.0,,,,,,,,,,,,,,CB,Tulsa,,,,,,,,,,,,,,,,,,,,,0.0,0.0,21.0,0.0,DB
+K'Von Wallace,,PHI,4,127,2020,Clemson,2016,2019,59.0,,,,,,,,,,,,,,DB,Clemson,,,,,,,,,,,,,,,,,,,,,5.0,1.0,16.0,4.0,DB
+Jaylinn Hawkins,,ATL,4,134,2020,California,2015,2019,50.0,,,,,,,,,,,,,,CB,California,,,,,,,,,,,,,,,,,,,,,10.0,0.0,7.0,9.0,DB
+Josiah Scott,,JAX,4,137,2020,Michigan State,2017,2019,30.0,,,,,,,,,,,,,,CB,Michigan State,,,,,,,,,,,,,,,,,,,,,7.0,0.0,24.0,0.0,DB
+L'Jarius Sneed,,KAN,4,138,2020,Louisiana Tech,2016,2019,51.0,,,,,,,,,,,,,,CB,Louisiana Tech,,,,,,,,,,,,,,,,,,,,,8.0,3.0,20.0,19.0,DB
+Amik Robertson,,RAI,4,139,2020,Louisiana Tech,2017,2019,38.0,,,,,,,,,,,,,,CB,Louisiana Tech,,,,,,,,,,,,,,,,,,,,,14.0,3.0,34.0,9.0,DB
+John Reid,,HTX,4,141,2020,Penn State,2015,2019,51.0,,,,,,,,,,,,,,CB,Penn State,,,,,,,,,,,,,,,,,,,,,7.0,1.0,30.0,1.0,DB
+Kenny Robinson,,CAR,5,152,2020,West Virginia,2017,2018,25.0,,,,,,,,,,,,,,S,West Virginia,,,,,,,,,,,,,,,,,,,,,7.0,2.0,7.0,1.0,DB
+Daniel Thomas,,JAX,5,157,2020,Auburn,2016,2019,51.0,,,,,,,,,,,,,,DB,Auburn,,,,,,,,,,,,,,,,,,,,,5.0,1.0,8.0,5.0,DB
+Bryce Hall,,NYJ,5,158,2020,Virginia,2016,2019,44.0,,,,,,,,,,,,,,DB,Virginia,,,,,,,,,,,,,,,,,,,,,5.0,0.0,39.0,10.0,DB
+Kindle Vildor,,CHI,5,163,2020,Georgia Southern,2016,2019,48.0,,,,,,,,,,,,,,CB,Georgia Southern,,,,,,,,,,,,,,,,,,,,,9.0,0.0,24.0,7.0,DB
+Harrison Hand,,MIN,5,169,2020,Temple,2017,2019,34.0,,,,,,,,,,,,,,CB,BaylorTemple,,,,,,,,,,,,,,,,,,,,,4.0,0.0,16.0,2.0,DB
+Alohi Gilman,,SDG,6,186,2020,Notre Dame,2016,2019,40.0,,,,,,,,,,,,,,S,NavyNotre Dame,,,,,,,,,,,,,,,,,,,,,3.0,0.0,12.0,14.0,DB
+Antoine Brooks,,PIT,6,198,2020,Maryland,2018,2019,24.0,,,,,,,,,,,,,,DB,Maryland,,,,,,,,,,,,,,,,,,,,,2.0,0.0,8.0,0.0,DB
+Jordan Fuller,,RAM,6,199,2020,Ohio State,2016,2019,52.0,,,,,,,,,,,,,,S,Ohio State,,,,,,,,,,,,,,,,,,,,,6.0,0.0,10.0,15.0,DB
+Josh Metellus,,MIN,6,205,2020,Michigan,2016,2019,46.0,,,,,,,,,,,,,,S,Michigan,,,,,,,,,,,,,,,,,,,,,5.0,1.0,16.0,20.0,DB
+Isaiah Rodgers,,CLT,6,211,2020,Massachusetts,2016,2019,45.0,,,,,,,,,,,,,,CB,Massachusetts,,,,,,,,,,,,,,,,,,,,,11.0,3.0,35.0,7.0,DB
+Kamren Curl,,WAS,7,216,2020,Arkansas,2017,2019,34.0,,,,,,,,,,,,,,DB,Arkansas,,,,,,,,,,,,,,,,,,,,,2.0,0.0,15.0,17.0,DB
+Geno Stone,,RAV,7,219,2020,Iowa,2017,2019,38.0,,,,,,,,,,,,,,DB,Iowa,,,,,,,,,,,,,,,,,,,,,6.0,1.0,7.0,11.0,DB
+Stantley Thomas-Oliver III,,CAR,7,221,2020,Florida International,2018,2019,26.0,,,,,,,,,,,,,,DB,Florida International,,,,,,,,,,,,,,,,,,,,,2.0,0.0,18.0,2.0,DB
+Chris Claybrooks,,JAX,7,223,2020,Memphis,2018,2019,21.0,,,,,,,,,,,,,,DB,Memphis,,,,,,,,,,,,,,,,,,,,,2.0,1.0,3.0,5.0,DB
+Vernon Scott,,GNB,7,236,2020,Texas Christian,2017,2019,34.0,,,,,,,,,,,,,,S,Texas Christian,,,,,,,,,,,,,,,,,,,,,2.0,1.0,10.0,1.0,DB
+Thakarius Keyes,,KAN,7,237,2020,Tulane,2016,2019,39.0,,,,,,,,,,,,,,DB,Tulane,,,,,,,,,,,,,,,,,,,,,2.0,0.0,18.0,1.0,DB
+Dane Jackson,,BUF,7,239,2020,Pitt,2016,2019,50.0,,,,,,,,,,,,,,DB,Pitt,,,,,,,,,,,,,,,,,,,,,4.0,1.0,39.0,12.0,DB
+Chris Jackson,,OTI,7,243,2020,Marshall,2016,2019,49.0,,,,,,,,,,,,,,DB,Marshall,,,,,,,,,,,,,,,,,,,,,7.0,1.0,45.0,2.0,DB
