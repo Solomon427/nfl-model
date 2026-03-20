@@ -1,7 +1,5 @@
 # hyperparameter grids for tuning
 
-print("USING REDUCED GRIDS")
-
 REGRESSION_PARAM_GRIDS = {
     "Ridge": {
         "alpha": [0.001, 0.01, 0.1, 1.0, 10.0, 100.0],
@@ -41,6 +39,7 @@ REGRESSION_PARAM_GRIDS = {
         "kernel": ["rbf", "linear"],
     },
 }
+
 """ (Took too long)
 CLASSIFICATION_PARAM_GRIDS = {
     "Logistic": {
