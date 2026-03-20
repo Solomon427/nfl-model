@@ -1,0 +1,14 @@
+group,model,best_cv_r2,test_r2,test_rmse,best_params
+QB,ExtraTrees,0.033602882845136725,0.13646728861567836,29.3982975157659,"{'model__max_depth': None, 'model__max_features': 1.0, 'model__min_samples_leaf': 4, 'model__min_samples_split': 2, 'model__n_estimators': 1000}"
+QB,KNN,0.0008270690808735326,0.11364940180865546,29.784173627869627,"{'model__n_neighbors': 11, 'model__p': 1, 'model__weights': 'uniform'}"
+Skill,MLP,0.0975576855469478,0.013550961393743455,15.341615093535967,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__early_stopping': True, 'model__hidden_layer_sizes': (64,), 'model__learning_rate_init': 0.01, 'model__solver': 'adam'}"
+Skill,ElasticNet,0.08432008528181889,0.03167070211512624,15.200059627906587,"{'model__alpha': 0.1, 'model__l1_ratio': 0.5}"
+Skill,Ridge,0.08272111462155325,0.03406356399170285,15.18126739431332,{'model__alpha': 100}
+OL,Lasso,-0.01018225779329296,-0.007891800654016068,19.859324287011383,{'model__alpha': 1}
+OL,ElasticNet,-0.010882635602838687,-0.015313335610860124,19.932306498998194,"{'model__alpha': 0.1, 'model__l1_ratio': 0.9}"
+Front7,Lasso,0.02035705061953357,0.1229455213368299,18.351424877062453,{'model__alpha': 1}
+Front7,Ridge,0.0216918102660012,0.13390840325268816,18.236370936066553,{'model__alpha': 100}
+Front7,ElasticNet,0.024383352157821926,0.10336321409404736,18.555163314574358,"{'model__alpha': 1, 'model__l1_ratio': 0.1}"
+DB,Ridge,0.03281929007423925,0.03122407059816934,16.845531502713673,{'model__alpha': 100}
+DB,ElasticNet,0.03086031552067279,0.033182101267360764,16.82849931315963,"{'model__alpha': 0.1, 'model__l1_ratio': 0.1}"
+DB,Lasso,0.029793951901088068,0.031088271193994155,16.84671213329604,{'model__alpha': 0.1}
